@@ -15,11 +15,3 @@ class PostAnketaStates(StatesGroup):
     user_waiting_anket = State()
     user_collected_all_docs = State()
     enter_fio = State()
-
-
-class BookingVisitor(StatesGroup):
-    start_booking = State()
-    enter_fio = State()
-    choose_time_visit_bk = State()
-    confirm_windows_bk = State()
-    time_visit_hr = State()
