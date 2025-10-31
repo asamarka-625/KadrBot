@@ -8,9 +8,10 @@ from telegram_bot.core import config
 from telegram_bot.keyboards import (create_main_keyboard, create_vacancies_inline, create_faq_inline)
 from telegram_bot.utils import edit_message, PostAnketaStates
 from telegram_bot.keyboards import (create_back_inline, create_form_inline, create_administration_positions_inline,
-                                    create_districts_inline, create_site_inline, create_submit_documents_inline)
+                                    create_districts_inline, create_site_inline, create_submit_documents_inline,
+                                    create_info_request_inline)
 from telegram_bot.services import (fetch_available_posts, fetch_persons_info, fetch_judgment_places,
-                                   fetch_judgement_place_byid)
+                                   fetch_judgement_place_byid, fetch_candidate_status, resend_document_status)
 
 
 router = Router()
@@ -61,6 +62,55 @@ async def answer_for_faq_callback_run(callback_query: CallbackQuery):
         keyboard=await create_back_inline(back="faq")
     )
     await callback_query.answer(text=question, show_alert=False)
+
+
+# Команда для просмотра активной заявке
+@router.message(StateFilter('*'), Command("status"))
+@router.message(StateFilter('*'), F.text.in_(config.STATUS))
+async def request_command(message: Message, state: FSMContext):
+    user_id = message.from_user.id
+
+    data = fetch_candidate_status(user_id)
+    status = data["status"]
+
+    if status is None:
+        await message.answer("У вас пока нет активной заявке")
+        return
+
+    message_to_candidate = data['message_to_candidate']
+
+    text_to_send = ("Документы не были получены инспектором. "
+                    "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
+                    "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
+
+    if message_to_candidate:
+        text_to_send = "Сообщение от проверяющего инспектора:\n\n" \
+                       f"💬 {str(message_to_candidate)}"
+
+    if status == "not_read":
+        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
+                "Ваши документы будут проверены инспектором в ближайшее время.\n"
+                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
+                "'Проверить статус заявки'")
+
+    elif status == "not_access":
+        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
+                f"{text_to_send}",)
+        resend_document_status(user_id)
+
+    elif status == "access":
+        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
+                "Теперь вы можете начать процесс поступления на гос. службу.")
+        await state.set_state(PostAnketaStates.user_collected_all_docs)
+
+    else:
+        await message.answer(text="Ошибка", show_alert=False)
+        return
+
+    await message.answer(
+        text,
+        reply_markup=await create_info_request_inline(status)
+    )
 
 
 # Колбэк кнопки назад

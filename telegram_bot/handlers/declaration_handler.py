@@ -1,6 +1,7 @@
 # Внешние зависимости
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery
+from aiogram.fsm.context import FSMContext
 # Внутренние модули
 from telegram_bot.core import config
 from telegram_bot.keyboards import create_declaration_inline, create_instructions_declaration_inline
@@ -11,7 +12,8 @@ router = Router()
 
 # Команда информации о предоставлении декларации
 @router.message(F.text.in_(config.DECLARATION))
-async def declaration_command(message: Message):
+async def declaration_command(message: Message, state: FSMContext):
+    await state.clear()
     await message.answer(
         "Выберите пожалуйста, в рамках чего вы хотите отправить декларацию",
         reply_markup=await create_declaration_inline()

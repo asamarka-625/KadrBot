@@ -359,50 +359,6 @@ async def status_request_callback_run(callback_query: CallbackQuery, state: FSMC
     await callback_query.answer(text="Информация", show_alert=False)
 
 
-# Команда для просмотра активной заявке
-@router.message(StateFilter('*'), Command("status"))
-@router.message(StateFilter('*'), F.text.in_(config.STATUS))
-async def request_command(message: Message, state: FSMContext):
-    user_id = message.from_user.id
-
-    data = fetch_candidate_status(user_id)
-    status = data["status"]
-    message_to_candidate = data['message_to_candidate']
-
-    text_to_send = ("Документы не были получены инспектором. "
-                    "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
-                    "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
-
-    if message_to_candidate:
-        text_to_send = "Сообщение от проверяющего инспектора:\n\n" \
-                       f"💬 {str(message_to_candidate)}"
-
-    if status == "not_read":
-        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
-                "Ваши документы будут проверены инспектором в ближайшее время.\n"
-                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
-                "'Проверить статус заявки'")
-
-    elif status == "not_access":
-        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
-                f"{text_to_send}",)
-        resend_document_status(user_id)
-
-    elif status == "access":
-        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
-                "Теперь вы можете начать процесс поступления на гос. службу.")
-        await state.set_state(PostAnketaStates.user_collected_all_docs)
-
-    else:
-        await message.answer(text="Ошибка", show_alert=False)
-        return
-
-    await message.answer(
-        text,
-        reply_markup=await create_info_request_inline(status)
-    )
-
-
 # Колбэк подачи документов
 @router.callback_query(F.data == "request-repeat")
 async def collect_documents_callback_run(callback_query: CallbackQuery, state: FSMContext):
