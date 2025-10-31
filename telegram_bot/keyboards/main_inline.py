@@ -27,6 +27,6 @@ async def create_faq_inline():
 # Создаем инлайн кнопку назад
 async def create_back_inline(back: str):
     builder = InlineKeyboardBuilder()
-    builder.row(InlineKeyboardButton(text="Назад", callback_data=f"back-{back}"))
+    builder.row(InlineKeyboardButton(text="⬅️ Назад", callback_data=f"back-{back}"))
 
     return builder.as_markup()
