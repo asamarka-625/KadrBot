@@ -1,0 +1,11 @@
+candidate/__pycache__/
+core/__pycache__/
+judgment/__pycache__/
+timeticket/__pycache__/
+
+candidate/migrations/__pycache__/
+judgment/migrations/__pycache__/
+timeticket/migrations/__pycache__/
+
+
+.venv/

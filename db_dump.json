@@ -1,0 +1,7062 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "timeticket",
+    "model": "timeuserwindow"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "timeticket",
+    "model": "timeorder"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "judgment",
+    "model": "district"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "judgment",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "judgment",
+    "model": "judgment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "judgment",
+    "model": "vacancyinjudgment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "candidate",
+    "model": "candidate"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "candidate",
+    "model": "candidateaccess"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "35mkym22xwftu343etb5ia6rylalh1qb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlk28ZeSnjNYm901DiBbipMKcXcSKQU0U8x7M2-RYF1KWjvPaSJxEVacfrsR8Ml1B_SAem8SW13maZS7Ig_a5a0Rv66H-3dQoJdtbYzHAQwFcNllMJmc0p4NBn0m9gNHy1nxFhaij9H5rDEHVJ5AIQ_i8wX7Lzix:1uhl5u:b0dVaT9FE1J78ABbU9cFC8SmRo4EbGvDYZEA5qH4-fA",
+    "expire_date": "2025-08-15T08:26:26.950Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4dw93ese504gln0b7ha4rskfxk5bl780",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm2d_2jpOcM1vqHA8iR4qRC3B0ipYD2zcx7sUDb2sI2yhKmzM4M2Ol3i5Qepe8g36nfZp7mvi5T5LvCDzr4dc7leTncv4NGo31rVOBrBOmcFZqSkCgwWSORJAkdlceSDQhLCCpKVOiqBvJGek3K1cjeH6kXNmw:1ubazo:2uyM1MYwVKe_DcBJCJ8ejML4jhsyUjedh42QxjD-BMk",
+    "expire_date": "2025-07-29T08:26:40.935Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d8whrmbtsitwdfhzma77r0qr0ohrykss",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSHAfFOm9xnQLgvBSYQlY1dR7h5bcpG0M_Pem0XY1hq3npc4EbsyzS6_DCE9czsEPaDdZ57mti4T8iPhp-18nCm_bmf7d1Ch132NACSdNwN5kRBIlUx5QC1CcMaWIIXxVlhUbqcmAfmCKUlvEFDrrNjnCwRiOLw:1ujvh0:jji2pg_motS_pOuJgduyrKvf3RvEj5yl5j41SQJ0Bys",
+    "expire_date": "2025-08-21T08:09:42.272Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g3ssc4gmkqu19obcitnxfmg5jdyr1ilu",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlk28ZeSnjNYm901DiBbipMKcXcSKQU0U8x7M2-RYF1KWjvPaSJxEVacfrsR8Ml1B_SAem8SW13maZS7Ig_a5a0Rv66H-3dQoJdtbYzHAQwFcNllMJmc0p4NBn0m9gNHy1nxFhaij9H5rDEHVJ5AIQ_i8wX7Lzix:1ubbMN:3s8Oh1lRED5GxG4SaRnGei-qrmrsuyJq9800mToWjAM",
+    "expire_date": "2025-07-29T08:49:59.333Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i5yt08n6joj46a9y7zzdtr6nhhf2pqxg",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSHAfFOm9xnQLgvBSYQlY1dR7h5bcpG0M_Pem0XY1hq3npc4EbsyzS6_DCE9czsEPaDdZ57mti4T8iPhp-18nCm_bmf7d1Ch132NACSdNwN5kRBIlUx5QC1CcMaWIIXxVlhUbqcmAfmCKUlvEFDrrNjnCwRiOLw:1uyTyQ:4FuSrUXbg9RgU6OuaseT5BgB5ZgaBczPiFDZu0cP_z8",
+    "expire_date": "2025-09-30T11:35:50.510Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jc8hennlvyasbpht8kfp4d4nsght2y53",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1ubaq6:Sc9tlD80axatZ_5ENXNdzhl0JPcsDkvuno6BVc_zpjU",
+    "expire_date": "2025-07-29T08:16:38.295Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "junv90b6ft6h41sdty9w4v0sx1x1rklz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1ueTrt:Hf-22CQ79NddCcU7MKih4rl8qOSwvWaR0hX1f02Yls0",
+    "expire_date": "2025-08-06T07:26:25.954Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qmoonuuyefvmusndxnjv0kvbn1gcysm4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1ugj4z:Hn350vHbmCKuOf9EIG3F8TYENSBuul2whFaU5SKk-Ak",
+    "expire_date": "2025-08-12T12:05:13.710Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qrbp4q30zr1h68btds8s916o0v3t1nh6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm2d_2jpOcM1vqHA8iR4qRC3B0ipYD2zcx7sUDb2sI2yhKmzM4M2Ol3i5Qepe8g36nfZp7mvi5T5LvCDzr4dc7leTncv4NGo31rVOBrBOmcFZqSkCgwWSORJAkdlceSDQhLCCpKVOiqBvJGek3K1cjeH6kXNmw:1uypFH:f7vfqpU-8C92dT6y47AO3t7AiMew2ndWGqg-v1pLiOw",
+    "expire_date": "2025-10-01T10:18:39.669Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r80okmiutzwa9ecgi1yyfg4zzpp82tr1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlk28ZeSnjNYm901DiBbipMKcXcSKQU0U8x7M2-RYF1KWjvPaSJxEVacfrsR8Ml1B_SAem8SW13maZS7Ig_a5a0Rv66H-3dQoJdtbYzHAQwFcNllMJmc0p4NBn0m9gNHy1nxFhaij9H5rDEHVJ5AIQ_i8wX7Lzix:1utgWZ:pXZ3EjNJZxcN7xhcvormsY308jhohEulPfXqS7xgo_c",
+    "expire_date": "2025-09-17T05:59:15.621Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "thdfget3e1avl9lr0euhs4t2glakplcf",
+  "fields": {
+    "session_data": ".eJxVjDEKwzAMAP_iuRg7QZHdsXvfYCRLrtOWBOJkCv17CWRo17vjdpNoW2vami5pFHM1nbn8Mqb80ukQ8qTpMds8T-sysj0Se9pm77Po-3a2f4NKrR5b0cA9eS0aEUqGQdlB9AGZlSOGCBgEsQg4F2kgGDijp9Bxr06K-XwB_mo4fw:1ubb9T:euIj8GXCL2dTouzLJYDCO_nLRsFZrep-IPjedO5wmxE",
+    "expire_date": "2025-07-29T08:36:39.776Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u0em3b20cxrjjeks4hfwa2m0nsi6r1jq",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlk28ZeSnjNYm901DiBbipMKcXcSKQU0U8x7M2-RYF1KWjvPaSJxEVacfrsR8Ml1B_SAem8SW13maZS7Ig_a5a0Rv66H-3dQoJdtbYzHAQwFcNllMJmc0p4NBn0m9gNHy1nxFhaij9H5rDEHVJ5AIQ_i8wX7Lzix:1ums5K:3ge_1Md6hd6bEP9pPF_YBvJzdi2pQLpXEYuvUeOF_Zg",
+    "expire_date": "2025-08-29T10:54:58.615Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u63etxf44cw7wlhrf4qqckowwfknv6rf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1utRIw:F7pc6-iQvouxKu6mNsn5waAQ8ad5McgDpxLzzxiOciA",
+    "expire_date": "2025-09-16T13:44:10.760Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wc0syi5qauwwvmheq69zqjcpt99iy7jf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1ueUKb:DLW9ID5h_nVCIEYMm_lvNxzTkzvNV-BYDhx79cRcliI",
+    "expire_date": "2025-08-06T07:56:05.465Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yw97klclp16gap6omlku9w6kq8pihtmb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1uvduI:OCLY4yG49mgRLWEkBOqCinRpJCws8uRes1h_Ompsy7c",
+    "expire_date": "2025-09-22T15:35:50.347Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yy1ndhhk1rtjq9t9cihkwsn8zmylfxns",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSHAfFOm9xnQLgvBSYQlY1dR7h5bcpG0M_Pem0XY1hq3npc4EbsyzS6_DCE9czsEPaDdZ57mti4T8iPhp-18nCm_bmf7d1Ch132NACSdNwN5kRBIlUx5QC1CcMaWIIXxVlhUbqcmAfmCKUlvEFDrrNjnCwRiOLw:1ubbBQ:-3aMpzmlAwq0ViPXj8Nst6D7aZSnp9lGRZcPTWshHVU",
+    "expire_date": "2025-07-29T08:38:40.413Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zdejgikvunfaylj2ypi76gsrfishk59u",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAChZm4dO8ZyAwDUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJk6izAnX63ZjSI7cdyJ3abdZpbusysd4VfdCur7Pk5-Vw_w4q9fqtXRGxkIsUAOuKF49uJAxuSHYgBo8ZAxok8ghBRs7WGELDXLw15NT7A-8_N9k:1ubc3x:4aufsD-6xCaCB7HY5wVsNUjyGcsa4tJKx17kMhBJZKc",
+    "expire_date": "2025-07-29T09:35:01.838Z"
+  }
+},
+{
+  "model": "judgment.district",
+  "pk": "АДМИРАЛТЕЙСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ВАСИЛЕОСТРОВСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ВЫБОРГСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КАЛИНИНСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КИРОВСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КОЛПИНСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КРАСНОГВАРДЕЙСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КРАСНОСЕЛЬСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КРОНШТАДТСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "КУРОРТНЫЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "МОСКОВСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "НЕВСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ПЕТРОГРАДСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ПЕТРОДВОРЦОВЫЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ПРИМОРСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ПУШКИНСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ФРУНЗЕНСКИЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.district",
+  "pk": "ЦЕНТРАЛЬНЫЙ",
+  "fields": {}
+},
+{
+  "model": "judgment.vacancy",
+  "pk": 1,
+  "fields": {
+    "name": "помощник мирового судьи"
+  }
+},
+{
+  "model": "judgment.vacancy",
+  "pk": 2,
+  "fields": {
+    "name": "секретарь суда"
+  }
+},
+{
+  "model": "judgment.vacancy",
+  "pk": 3,
+  "fields": {
+    "name": "секретарь судебного заседания"
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 41,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 121
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 42,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 126
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 43,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 135
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 48,
+  "fields": {
+    "vacancy": 3,
+    "judgment": 162
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 50,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 11
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 54,
+  "fields": {
+    "vacancy": 3,
+    "judgment": 93
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 57,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 174
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 61,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 111
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 63,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 146
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 64,
+  "fields": {
+    "vacancy": 3,
+    "judgment": 178
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 65,
+  "fields": {
+    "vacancy": 3,
+    "judgment": 198
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 67,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 206
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 70,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 18
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 71,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 114
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 72,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 147
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 73,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 172
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 74,
+  "fields": {
+    "vacancy": 2,
+    "judgment": 65
+  }
+},
+{
+  "model": "judgment.vacancyinjudgment",
+  "pk": 75,
+  "fields": {
+    "vacancy": 3,
+    "judgment": 65
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 3,
+  "fields": {
+    "name": "Юлия",
+    "surname": "Стюф",
+    "last_name": "Александровна",
+    "email": "juli_stt@vk.com",
+    "telegram_id": "5239499459"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 4,
+  "fields": {
+    "name": "Марина",
+    "surname": "Малыхина",
+    "last_name": "Витальевна",
+    "email": "marfa-degtyareva@mail.ru",
+    "telegram_id": "779992132"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 5,
+  "fields": {
+    "name": "Вероника",
+    "surname": "Смирнова",
+    "last_name": "Алексеевна",
+    "email": "missis.ivanova-nika@ya.ru",
+    "telegram_id": "1445174650"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 6,
+  "fields": {
+    "name": "декларации",
+    "surname": "Предоставление",
+    "last_name": "о",
+    "email": "andreeva.yu@mail.ru",
+    "telegram_id": "5367083993"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 7,
+  "fields": {
+    "name": "Арина",
+    "surname": "Макарова",
+    "last_name": "Викторовна",
+    "email": "Arishonak@mail.ru",
+    "telegram_id": "1261693465"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 8,
+  "fields": {
+    "name": "Надежда",
+    "surname": "Коржан",
+    "last_name": "Владимировна",
+    "email": "korzhan.nadya@gmail.com",
+    "telegram_id": "736083270"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 9,
+  "fields": {
+    "name": "Аэлита",
+    "surname": "Александрова",
+    "last_name": "Валентиновна",
+    "email": "Lita.ae@gmail.com",
+    "telegram_id": "992370887"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 10,
+  "fields": {
+    "name": "Фёдор",
+    "surname": "Дыргялло",
+    "last_name": "Константинович",
+    "email": "f.dyrgyallo@gmail.com",
+    "telegram_id": "877934801"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 11,
+  "fields": {
+    "name": "Арина",
+    "surname": "Гурьянова",
+    "last_name": "Анатольевна",
+    "email": "Arina-guryanova1996@mail.ru",
+    "telegram_id": "1240692371"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 12,
+  "fields": {
+    "name": "Наталья",
+    "surname": "Дзукаева",
+    "last_name": "Геннадиевна",
+    "email": "Natali.Dzukaeva@mail.ru",
+    "telegram_id": "1693483143"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 13,
+  "fields": {
+    "name": "Карина",
+    "surname": "Савастьянова",
+    "last_name": "Сергеевна",
+    "email": "karinasavastyanova@yandex.ru",
+    "telegram_id": "803172325"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 14,
+  "fields": {
+    "name": "Дзерасса",
+    "surname": "Джимиева",
+    "last_name": "Казбековна",
+    "email": "Dzerarca@gmail.com",
+    "telegram_id": "1644429682"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 15,
+  "fields": {
+    "name": "Ксения",
+    "surname": "Смачная",
+    "last_name": "Владимировна",
+    "email": "Senya.mv@mail.ru",
+    "telegram_id": "2060052610"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 16,
+  "fields": {
+    "name": "Константин",
+    "surname": "Андреев",
+    "last_name": "Евгеньевич",
+    "email": "Kostya14482000@mail.ru",
+    "telegram_id": "1808816653"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 17,
+  "fields": {
+    "name": "Иван",
+    "surname": "Иванов",
+    "last_name": "Николаевич",
+    "email": "Kobkin@yandex.ru",
+    "telegram_id": "1884438159"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 18,
+  "fields": {
+    "name": "Татьяна",
+    "surname": "Пименова",
+    "last_name": "Сергеевна",
+    "email": "tspimenova@yandex.ru",
+    "telegram_id": "1353968350"
+  }
+},
+{
+  "model": "candidate.candidate",
+  "pk": 19,
+  "fields": {
+    "name": "Диана",
+    "surname": "Якубова",
+    "last_name": "Германовна",
+    "email": "shamsi20@yandex.ru",
+    "telegram_id": "1072365477"
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 3,
+  "fields": {
+    "candidate": 3,
+    "status": "not_read",
+    "judgment_place": 207,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 4,
+  "fields": {
+    "candidate": 4,
+    "status": "not_access",
+    "judgment_place": 148,
+    "message_to_candidate": "Свободных мест на 148 участке нет."
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 5,
+  "fields": {
+    "candidate": 5,
+    "status": "not_access",
+    "judgment_place": 119,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 6,
+  "fields": {
+    "candidate": 6,
+    "status": "not_read",
+    "judgment_place": 58,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 7,
+  "fields": {
+    "candidate": 7,
+    "status": "not_read",
+    "judgment_place": 58,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 8,
+  "fields": {
+    "candidate": 8,
+    "status": "not_access",
+    "judgment_place": 119,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 9,
+  "fields": {
+    "candidate": 9,
+    "status": "not_read",
+    "judgment_place": 169,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 10,
+  "fields": {
+    "candidate": 10,
+    "status": "not_read",
+    "judgment_place": 1,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 11,
+  "fields": {
+    "candidate": 11,
+    "status": "not_access",
+    "judgment_place": 135,
+    "message_to_candidate": "Документы не были посланы, кандидат подал на другой участок № 84."
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 12,
+  "fields": {
+    "candidate": 12,
+    "status": "not_access",
+    "judgment_place": 82,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 13,
+  "fields": {
+    "candidate": 13,
+    "status": "not_access",
+    "judgment_place": 119,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 14,
+  "fields": {
+    "candidate": 14,
+    "status": "not_access",
+    "judgment_place": 72,
+    "message_to_candidate": "Вакансии на судебном участке отсутствуют"
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 15,
+  "fields": {
+    "candidate": 15,
+    "status": "not_read",
+    "judgment_place": 174,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 16,
+  "fields": {
+    "candidate": 16,
+    "status": "not_read",
+    "judgment_place": 7,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 17,
+  "fields": {
+    "candidate": 17,
+    "status": "not_read",
+    "judgment_place": 146,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 18,
+  "fields": {
+    "candidate": 18,
+    "status": "not_read",
+    "judgment_place": 7,
+    "message_to_candidate": null
+  }
+},
+{
+  "model": "candidate.candidateaccess",
+  "pk": 19,
+  "fields": {
+    "candidate": 19,
+    "status": "access",
+    "judgment_place": 91,
+    "message_to_candidate": "сообщение направлено на почту кандидату 17.09.2025"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Окно времени",
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "codename": "add_timeuserwindow"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Окно времени",
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "codename": "change_timeuserwindow"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Окно времени",
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "codename": "delete_timeuserwindow"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Окно времени",
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "codename": "view_timeuserwindow"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Может просматривать только свои записи",
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "codename": "can_see_own_record"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Зарезервированное окно",
+    "content_type": [
+      "timeticket",
+      "timeorder"
+    ],
+    "codename": "add_timeorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Зарезервированное окно",
+    "content_type": [
+      "timeticket",
+      "timeorder"
+    ],
+    "codename": "change_timeorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Зарезервированное окно",
+    "content_type": [
+      "timeticket",
+      "timeorder"
+    ],
+    "codename": "delete_timeorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Зарезервированное окно",
+    "content_type": [
+      "timeticket",
+      "timeorder"
+    ],
+    "codename": "view_timeorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add district",
+    "content_type": [
+      "judgment",
+      "district"
+    ],
+    "codename": "add_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change district",
+    "content_type": [
+      "judgment",
+      "district"
+    ],
+    "codename": "change_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete district",
+    "content_type": [
+      "judgment",
+      "district"
+    ],
+    "codename": "delete_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view district",
+    "content_type": [
+      "judgment",
+      "district"
+    ],
+    "codename": "view_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Должность",
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Должность",
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Должность",
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Должность",
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Участок",
+    "content_type": [
+      "judgment",
+      "judgment"
+    ],
+    "codename": "add_judgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Участок",
+    "content_type": [
+      "judgment",
+      "judgment"
+    ],
+    "codename": "change_judgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Участок",
+    "content_type": [
+      "judgment",
+      "judgment"
+    ],
+    "codename": "delete_judgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Участок",
+    "content_type": [
+      "judgment",
+      "judgment"
+    ],
+    "codename": "view_judgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Вакансия в участке",
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "codename": "add_vacancyinjudgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Вакансия в участке",
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "codename": "change_vacancyinjudgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Вакансия в участке",
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "codename": "delete_vacancyinjudgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Вакансия в участке",
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "codename": "view_vacancyinjudgment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Кандидат",
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "codename": "add_candidate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Кандидат",
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "codename": "change_candidate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Кандидат",
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "codename": "delete_candidate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Кандидат",
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "codename": "view_candidate"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Заявка кандидата",
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "codename": "add_candidateaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Заявка кандидата",
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "codename": "change_candidateaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Заявка кандидата",
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "codename": "delete_candidateaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Заявка кандидата",
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "codename": "view_candidateaccess"
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "Инспектор",
+    "permissions": [
+      [
+        "add_candidate",
+        "candidate",
+        "candidate"
+      ],
+      [
+        "change_candidate",
+        "candidate",
+        "candidate"
+      ],
+      [
+        "delete_candidate",
+        "candidate",
+        "candidate"
+      ],
+      [
+        "view_candidate",
+        "candidate",
+        "candidate"
+      ],
+      [
+        "add_candidateaccess",
+        "candidate",
+        "candidateaccess"
+      ],
+      [
+        "change_candidateaccess",
+        "candidate",
+        "candidateaccess"
+      ],
+      [
+        "delete_candidateaccess",
+        "candidate",
+        "candidateaccess"
+      ],
+      [
+        "view_candidateaccess",
+        "candidate",
+        "candidateaccess"
+      ],
+      [
+        "view_district",
+        "judgment",
+        "district"
+      ],
+      [
+        "view_judgment",
+        "judgment",
+        "judgment"
+      ],
+      [
+        "view_vacancy",
+        "judgment",
+        "vacancy"
+      ],
+      [
+        "view_vacancyinjudgment",
+        "judgment",
+        "vacancyinjudgment"
+      ],
+      [
+        "view_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "add_timeorder",
+        "timeticket",
+        "timeorder"
+      ],
+      [
+        "change_timeorder",
+        "timeticket",
+        "timeorder"
+      ],
+      [
+        "delete_timeorder",
+        "timeticket",
+        "timeorder"
+      ],
+      [
+        "view_timeorder",
+        "timeticket",
+        "timeorder"
+      ],
+      [
+        "add_timeuserwindow",
+        "timeticket",
+        "timeuserwindow"
+      ],
+      [
+        "change_timeuserwindow",
+        "timeticket",
+        "timeuserwindow"
+      ],
+      [
+        "delete_timeuserwindow",
+        "timeticket",
+        "timeuserwindow"
+      ],
+      [
+        "view_timeuserwindow",
+        "timeticket",
+        "timeuserwindow"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$0qEJA38VRTOlB0wXV8WZm3$/hp91h3OlkgOuE+tqc6d/F/uxB55rPksJtua5CpQtEE=",
+    "last_login": "2025-07-14T12:32:11.037Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:32:02.374Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$XY60Rk3pmHvwp7tqC5XMrN$5Le3Wokgc4qSzHkXA2pmizFQpr5U4nYmrrea9yk6tTk=",
+    "last_login": "2025-07-15T08:36:39.750Z",
+    "is_superuser": false,
+    "username": "guseva",
+    "first_name": "Гусева Инна Александровна",
+    "last_name": "",
+    "email": "guseva@zakon.gov.spb.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:51:44Z",
+    "groups": [
+      [
+        "Инспектор"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$52Y7EzR7MEconLJgoDDQje$IdjgCiDyBHM6pgSz6OVOYH1Z18ctEKvtyJKlOWgjrgM=",
+    "last_login": "2025-09-17T10:18:39.634Z",
+    "is_superuser": false,
+    "username": "belousova",
+    "first_name": "Белоусова Татьяна Валерьевна",
+    "last_name": "",
+    "email": "belousova@zakon.gov.spb.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:51:47Z",
+    "groups": [
+      [
+        "Инспектор"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$RwPoSgW2h8QSA71NZ9Qyky$s10/HRXDUfHXyxH5fW7nbonenukgxcy8o7Q3HQuHer4=",
+    "last_login": "2025-09-16T11:35:50.474Z",
+    "is_superuser": false,
+    "username": "yastreb",
+    "first_name": "Ястреб Елена Владимировна",
+    "last_name": "",
+    "email": "yastreb@zakon.gov.spb.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:51:50Z",
+    "groups": [
+      [
+        "Инспектор"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$M3P6af1z55pQw8GgnAsM4o$eoY+4H3BDYNn6p9OMAYp+/LBDTlCr4OwKQnNOAqe8Vo=",
+    "last_login": "2025-09-03T05:59:15.591Z",
+    "is_superuser": false,
+    "username": "kraeva",
+    "first_name": "Краева Мария Владимировна",
+    "last_name": "",
+    "email": "m.kraeva@zakon.gov.spb.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:51:52Z",
+    "groups": [
+      [
+        "Инспектор"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$9xWY4Xdq6m42YOsavoOQjx$8fQR5BGozOfpUr4suYCsXNmlefoarVV0r3fvteH8eAI=",
+    "last_login": "2025-07-14T14:33:15.655Z",
+    "is_superuser": false,
+    "username": "kostygov",
+    "first_name": "Костыгов Алексей Анатольевич",
+    "last_name": "",
+    "email": "kostygov@zakon.gov.spb.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:51:55Z",
+    "groups": [
+      [
+        "Инспектор"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$mDTnaIsrFXdAadLEKeMQk8$TJSESHjn2Uv4NJHnm/DDSh9+vUQjX/kxSbUKwGKxPbw=",
+    "last_login": "2025-09-08T15:35:50.312Z",
+    "is_superuser": true,
+    "username": "duplenskiy",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T13:03:24Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 1,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "НИКИТИНА  Татьяна Михайловна",
+    "phone": "2462631, ",
+    "description": "ул. Садовая, д.55-57, литера А, Санкт-Петербург, 190068 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 2,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "КОМАРОВ  Александр Анатольевич",
+    "phone": "2462632, 2462633",
+    "description": "ул. Садовая, д.55-57, литера А, Санкт-Петербург,190068 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 3,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": " СЛОНОВА  Елена Александровна ",
+    "phone": "2462634, 2462635",
+    "description": "ул. Садовая, д.55-57, литера А, Санкт-Петербург,190068 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 4,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "ЕВДОКИМОВА  Ирина Сергеевна",
+    "phone": "2462637, ",
+    "description": "ул. Садовая, д.55-57, литера А, Санкт-Петербург,190068 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 5,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "НИКИТЕНКО  София Алексеевна",
+    "phone": "2415127, ",
+    "description": "наб. Обводного канала, д.132, литера Е,          Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 6,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "ТКАЧЕНКО  Екатерина Владимировна",
+    "phone": "2415125, 2415124",
+    "description": "наб. Обводного канала, д.132, литера Е,       Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 7,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "БЕСШАПОШНИКОВА Ольга Игоревна ",
+    "phone": "2415156, 2415129",
+    "description": "наб. Обводного канала, д. 132, литера Е, Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 8,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "ЕРМАКОВА  Яна Сергеевна",
+    "phone": "2415121, 2415122",
+    "description": "наб. Обводного канала, д.132, литера Е,      Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 9,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "КРАСНОВА Наталья Евгеньевна",
+    "phone": "2415119, 2415146",
+    "description": "наб. Обводного канала, д.132, литера Е, Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 10,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "УШАКОВА Ирина Анатольевна ",
+    "phone": "2415155, 2415120",
+    "description": "наб. Обводного канала, д.132, литера Е, Санкт-Петербург, 198095 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 11,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ЛЮБИМОВА Елена Леонидовна",
+    "phone": "2466827, 2466825",
+    "description": "4-я линия В.О., д.35-37, литера А, Санкт-Петербург, 199004",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 12,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ВОРОБЬЕВ Валерий Андреевич",
+    "phone": "2466805, 2466806",
+    "description": "Биржевая линия д. 1/1, литера Ж, Санкт-Петербург, 199034",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 13,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ЛАЗАРЕВА Антонина Григорьевна",
+    "phone": "2466821, ",
+    "description": "4-я линия В.О., д.21, литера А, Санкт-Петербург, 199004",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 14,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "РАССКАЗОВА Анастасия Алексеевна",
+    "phone": "4098124, 4098123",
+    "description": "В.О. пер. Декабристов д. 8, литера А, Санкт-Петербург, 199155",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 15,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "КИРОВА Наталья Александровна",
+    "phone": "2466831, ",
+    "description": "7-я линия В.О., д.60, литера А, Санкт-Петербург, 199004",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 16,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "СВЕТЛАКОВА Елена Андреевна",
+    "phone": "2466867, 3214063",
+    "description": "17-я линия В.О., д.8, лит. Б, Санкт-Петербург, 199034",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 17,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ЕВСТИГНЕЕВА Ольга Николаевна",
+    "phone": "2465942, ",
+    "description": "В.О., пр.Кима, д. 7/19, Санкт-Петербург, 199155",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 18,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ЛЕВКО Анна Михайловна",
+    "phone": "2466834, 3231524",
+    "description": "15-я линия В.О., д.86, литера В, Санкт-Петербург, 199178",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 19,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "МЕДВЕДЕВА Вера Сергеевна",
+    "phone": "2460726, 2460727",
+    "description": "ул. Маршала Новикова, д. 13, лит.А, Санкт-Петербург, 197349",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 20,
+  "fields": {
+    "district": "ВАСИЛЕОСТРОВСКИЙ",
+    "fio_judgment": "ПЕСОЦКАЯ Яна Александровна",
+    "phone": "2466810, ",
+    "description": "Биржевая линия д. 1/1, литера Ж, ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 21,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ПОЛУХИНА Юлия Владимировна",
+    "phone": "2465359, 2465357",
+    "description": "Суздальский пр., д. 11, литера А, Санкт-Петербург,194355",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 22,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "СПЕРАНСКАЯ Светлана Александровна",
+    "phone": "2465479, ",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 23,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "КУЛАБУХОВА Ирина Геннадьевна",
+    "phone": "2465486, ",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 24,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ВЕРШКОВА Юлия Сергеевна",
+    "phone": "2465490, ",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 25,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "СУЗИ Ольга Юрьевна",
+    "phone": "2465483, ",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 26,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ОСИПОВА Наталья Николаевна",
+    "phone": "2465476, 2465477",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 27,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ТУЛУЗАКОВА Ольга Васильевна",
+    "phone": "2465363",
+    "description": "пр. М. Тореза, д. 34, литера А, Санкт-Петербург,194022",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 28,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "  ГОРДОН Ирина Александровна",
+    "phone": "2465366",
+    "description": "пр. М. Тореза, д. 34, литера А,Санкт-Петербург,194020 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 29,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "МИЩУК Ирина Александровна",
+    "phone": "5524555, 2465480",
+    "description": "Светлановский пр., д. 21,Санкт-Петербург,194223 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 30,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "НОВИКОВА Юлия Михайловна",
+    "phone": "2465465, 2465460",
+    "description": "ул. Есенина, д. 7, литера А,Санкт-Петербург,194354 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 31,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ПОЛЯКОВА  Ирина Михайловна",
+    "phone": "2466884, 2466886",
+    "description": "ул. Гданьская, д. 7,Санкт-Петербург,194017 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 32,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ГОРБАТОВА Анна Николаевна",
+    "phone": "2465469",
+    "description": "ул. Есенина, д. 7, литера А,Санкт-Петербург,194354 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 33,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "КРОТОВА Ирина Анатольевна",
+    "phone": "2465456",
+    "description": "пр. М. Тореза, д. 34, литера А,Санкт-Петербург,194021 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 34,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "НОВИКОВА Наталья Викторовна",
+    "phone": "4098149, 4098150",
+    "description": "пр. Энгельса, д. 17, Санкт-Петербург, 194156",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 35,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "КУРАСОВА Елена Тимофеевна",
+    "phone": "4098146, 4098147",
+    "description": "пр. Энгельса, д. 17, Санкт-Петербург, 194156",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 36,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ШУБИНА Светлана Геннадьевна",
+    "phone": "2465465",
+    "description": "ул. Есенина, д. 7, литера А,Санкт-Петербург,194354 ",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 37,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ВОДОМЕРОВ Алексей Александрович",
+    "phone": "2465474, 2465947",
+    "description": "Светлановский пр., д. 21, Санкт-Петербург,194223",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 38,
+  "fields": {
+    "district": "ВЫБОРГСКИЙ",
+    "fio_judgment": "ТРУСКАЛЕНКО Елизавета Сергеевна",
+    "phone": "2465468, 2465466",
+    "description": "ул. Есенина, д. 7, литера А, Санкт-Петербург,194354",
+    "inspector": [
+      "guseva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 39,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ЕВГЕНЬЕВА Ирина Игоревна",
+    "phone": "2412361, 2412369",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 40,
+  "fields": {
+    "district": "АДМИРАЛТЕЙСКИЙ",
+    "fio_judgment": "КУЗИНА  Александра Эдуардовна",
+    "phone": "2462638, 3102970",
+    "description": "ул. Садовая, д.55-57, литера А, Санкт-Петербург,190068 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 41,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "АРХИПОВА Ирина Ивановна",
+    "phone": "2412351, 2412951",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 42,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ЛИСИЦЫНА Ольга Владимировна",
+    "phone": "2412362, 2412952",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 43,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "НОВИКОВА Ирина Сергеевна",
+    "phone": "2412353, 2412373",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 44,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ПАВЛОВА Людмила Петровна",
+    "phone": "2412384",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 45,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ТУЧКОВА  Татьяна Анатольевна",
+    "phone": "5704581, 2466890",
+    "description": "ул. Милионная, д. 21, литера А,  Санкт-Петербург, 191186",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 46,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "МЕНЬШИКОВА Ирина Юрьевна",
+    "phone": "2412366, 2412356",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 47,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ИСКАКОВА Мария Шамильевна ",
+    "phone": "2412378, 2412347",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 48,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ГОЛОВА Екатерина Александровна",
+    "phone": "2412358, 2412348",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 49,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ЛЕВИНА  Екатерина Витальевна",
+    "phone": "2412349, 2412990",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 50,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ДАНИЛОВ Юрий Валерьянович",
+    "phone": "2412350, 2465919",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 51,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "КАЙНОВА Рафиса Рафисовна",
+    "phone": "4976228, 4976229",
+    "description": "ул. Тимуровская, д. 8, корп. 1, литера Б, Санкт-Петербург,195276",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 52,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "МАКАРОВА Маргарита Геннадьевна",
+    "phone": "2412352, 2412392",
+    "description": "Кондратьевский пр., д. 24, литера А,Санкт-Петербург, 195197 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 53,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ПАВЛЫЧЕВА Юлия Алексеевна",
+    "phone": "2466859, 2465857",
+    "description": "ул. Тимуровская, д. 8, корп. 1, литера Б, Санкт-Петербург,195276",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 54,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ШАРОНОВА Наталья Витальевна",
+    "phone": "2412354, 2412383",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 55,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "КУЗНЕЦОВА Валерия Александровна",
+    "phone": "2412355, 2412365",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 56,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ЛОПАТИНА Ирина Александровна",
+    "phone": "2466858, 2465854",
+    "description": "ул. Тимуровская, д. 8, корп. 1, литера Б, Санкт-Петербург,195276",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 57,
+  "fields": {
+    "district": "КАЛИНИНСКИЙ",
+    "fio_judgment": "ДАВЫДОВА Анна Михайловна",
+    "phone": "2412357, 2412367",
+    "description": "Кондратьевский пр., д. 24, литера А, Санкт-Петербург, 195197 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 58,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "МАГЕР Татьяна Владимировна",
+    "phone": "2465392, 2465401",
+    "description": "ул. Возрождения, д. 13, литера А, Санкт-Петербург,198188",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 59,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "ТАКУШИНОВА  Ирина Мухамедовна",
+    "phone": "2415100, 2415102",
+    "description": "пр. Стачек, д. 105, корп. 1, литера Б,  Санкт-Петербург, 198303",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 60,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ВАСИЛЬЕВА Светлана Геннадьевна",
+    "phone": "2466848, 2466849",
+    "description": "ул. Стойкости, д. 30, корп. 1, Санкт-Петербург,198261",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 61,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ЛОСЕВА Александра Гедальевна",
+    "phone": "2465398, 2465396",
+    "description": "ул. Возрождения, д. 13, литера А, Санкт-Петербург,198188",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 62,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ЛЕУШИНА Светлана Дмитриевна",
+    "phone": "2415103, 2415108",
+    "description": "пр. Стачек, д. 105, корп. 1, литера Б, Санкт-Петербург,198303",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 63,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "КАКИНЬ Игорь Юльянович",
+    "phone": "2415104, 2415107",
+    "description": "пр. Стачек, д. 105, корп. 1, литера Б, Санкт-Петербург,198303",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 64,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "СУХАРНИКОВА Ирина Ивановна",
+    "phone": "2415105, 2415109",
+    "description": "пр. Стачек, д. 105, корп. 1, литера Б, Санкт-Петербург,198303",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 65,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ОСЕТРОВА Татьяна Юрьевна",
+    "phone": "2465371, 2465375",
+    "description": "ул. Двинская, д. 14,   Санкт-Петербург,198035",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 66,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ЦЫГАНОВА Татьяна Аллеговна",
+    "phone": "2415110, 2415101",
+    "description": "пр. Стачек, д. 105, корп. 1, литера Б, Санкт-Петербург,198303",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 67,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ПАРШИКОВ Александр Михайлович",
+    "phone": "2465368, 2465378",
+    "description": "ул. Двинская, д. 14, Санкт-Петербург,198035",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 68,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "НАЗАРОВА Ирина Александровна",
+    "phone": "2465383, 2465399",
+    "description": "ул. Возрождения, д. 13, литера А, Санкт-Петербург,198188",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 69,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ДОНСКАЯ Виктория Владимировна",
+    "phone": "2465377, 2465373",
+    "description": "ул. Двинская, д. 14, Санкт-Петербург,198035",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 70,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "ЧИРКОВА Ольга Валентиновна",
+    "phone": "2465385, 2465386",
+    "description": "ул. Возрождения, д. 13, литера А, Санкт-Петербург,198188",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 71,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "САФРЮК Виорика Васильевна",
+    "phone": "2465359, 2465900",
+    "description": "ул. Возрождения, д. 13, литера А, Санкт-Петербург,198188 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 72,
+  "fields": {
+    "district": "КИРОВСКИЙ",
+    "fio_judgment": "МИНОСЯН Карина Львовна",
+    "phone": ", 2465370",
+    "description": "ул. Двинская, д. 14, Санкт-Петербург,198035 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 73,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "МОРОЗОВА Ольга Владимировна",
+    "phone": "2465220, 2465221",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 74,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "СЕМЕНОВА Анна Евгеньевна",
+    "phone": "2465224, 2465225",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 75,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "УСТЮГОВА Галина Валерьевна",
+    "phone": "2465228, 2465229",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 76,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "ЧЕРВОНАЯ Татьяна Александровна",
+    "phone": "2465232, 2465233",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 77,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": " МУШНИКОВА Юлия Андреевна",
+    "phone": "2465236, 2465237",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 78,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "ФЕДОРОВИЧ Светлана Сергеевна",
+    "phone": "2465240, 2465241",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 79,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "ФИЛИППОВА  Кристина Александровна",
+    "phone": "2465244, 2465245",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 80,
+  "fields": {
+    "district": "КОЛПИНСКИЙ",
+    "fio_judgment": "САВЕЛЬЕВА Ольга Владимировна",
+    "phone": "2465251, 2465249",
+    "description": "Бульвар Трудящихся, д. 29/52, литера А, г. Колпино, Санкт-Петербург, 196657 ",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 81,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "НЕДОСПАСОВА Елена Сергеевна",
+    "phone": "2465904, 2465905",
+    "description": "пр. Энергетиков, д. 26, литера А, Санкт-Петербург,195248",
+    "inspector": [
+      "belousova"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 82,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": " ",
+    "phone": "2413242, 2413299",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 83,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "КОЛБАСОВА Людмила Ивановна",
+    "phone": "2413243, 2413247",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 84,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "КИРПИТА Елена Александровна",
+    "phone": "2465908, 2465909",
+    "description": "пр. Энергетиков, д. 26, литера А, Санкт-Петербург,195248",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 85,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "МАЙОРОВ Андрей Федорович",
+    "phone": "2413245, 2413245",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 86,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "ОСИПОВА Анастасия Сергеевна",
+    "phone": "2413246, 2413296",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 87,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "КАЙНОВА Юлия Владимировна",
+    "phone": "2466840, 2466841",
+    "description": "Гранитная ул., д. 28 корп. 2, Санкт-Петербург,195213",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 88,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "БОЧКОВ  Владимир Александрович",
+    "phone": "2466843, 2466844",
+    "description": "Якорная ул., д. 6, литера А, Санкт-Петербург,195027",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 89,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": " ПРОПОРЦИОНАЛЬНАЯ Александра Сергеевна",
+    "phone": "2465912, 2465913",
+    "description": "пр. Энергетиков, д. 26, литера А, Санкт-Петербург,195248",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 90,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "КЛЮЧЕВСКАЯ Яна Юрьевна",
+    "phone": "2413290, 2413298",
+    "description": "Индустриальный пр. д. 10 корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 91,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "АЛЕКСАНДРОВА  Светлана Александровна",
+    "phone": "2413291, 2413297",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 92,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "ВОВК Вера Ефимовна",
+    "phone": "2413292, 2413292",
+    "description": "Индустриальный пр., д. 10, корп.1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 93,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "ЖЕЛТУХИНА Нина Михайловна",
+    "phone": ", 5205129",
+    "description": "Индустриальный пр., д. 10, корп. 1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 94,
+  "fields": {
+    "district": "КРАСНОГВАРДЕЙСКИЙ",
+    "fio_judgment": "ПОДКОРЫТОВА Ольга Аркадьевна",
+    "phone": "2413294, 2413294",
+    "description": "Индустриальный пр., д. 10, корп. 1, литера А, Санкт-Петербург, 195426",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 95,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ХАРЕНКО Елена Степановна",
+    "phone": "2465975, 2465976",
+    "description": "Петергофское шоссе, д. 3, корп. 1, литера В, Санкт-Петербург, 198330",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 96,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ИВАНОВА Марина Александровна",
+    "phone": "2465571, 2465293",
+    "description": "ул. Партизана Германа, д. 22, литера Б, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 97,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "БОЙКОВА Анна Васильевна",
+    "phone": "2465955, 2465954",
+    "description": "ул. Партизана Германа, д. 14/117, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 98,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "САЛАХОВА Елена Сергеевна",
+    "phone": "2465290, 2465298",
+    "description": "ул. Партизана Германа, д. 22, литера Б, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 99,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ЗАБУРКО Екатерина Николаевна",
+    "phone": "2465958, 7364294",
+    "description": "ул. Партизана Германа, д. 14/117, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 100,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "НОВИКОВА Ольга Святославовна",
+    "phone": "2465303, 2465304",
+    "description": "ул. Партизана Германа, д. 22, литера Б, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 101,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ЛЫКОВА  Светлана Александровна",
+    "phone": "2465962, 2465963",
+    "description": "ул. Тамбасова, д. 27, корп. 2, Санкт-Петербург, 198259",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 102,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ГОРЮНОВА Елена Николаевна",
+    "phone": "2465966, 2465967",
+    "description": "ул. Тамбасова, д. 27, корп. 2, Санкт-Петербург, 198259",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 103,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ЕГОРОВ Андрей Валерьевич",
+    "phone": "2465980, 2465981",
+    "description": "ул. Авангардная, д. 47, литера А, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 104,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ПЛЕХАНОВА Анна Владимировна",
+    "phone": "2465296, 2465295",
+    "description": "ул. Партизана Германа, д. 22, литера Б, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 105,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "АНИСКИН Константин Александрович",
+    "phone": "2465289, 2465300",
+    "description": "ул. Партизана Германа, д. 22, литера Б, Санкт-Петербург, 198205",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 106,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ИВАНОВ Владислав Сергеевич",
+    "phone": "2465970, 2465971",
+    "description": "ул. Тамбасова, д. 27, корп. 2, Санкт-Петербург, 198259",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 107,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ПРИТУЖАЛЬНИКОВА Ольга Леонидовна",
+    "phone": "2465491, 2465492",
+    "description": "п. Горелово, Красносельское шоссе, д. 46, Санкт-Петербург, 198323",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 108,
+  "fields": {
+    "district": "КРАСНОСЕЛЬСКИЙ",
+    "fio_judgment": "ПОПОВА Екатерина Анатольевна",
+    "phone": "4098119, 4098120",
+    "description": "п. Горелово, Красносельское шоссе, д. 46, Санкт-Петербург, 198323",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 109,
+  "fields": {
+    "district": "КРОНШТАДТСКИЙ",
+    "fio_judgment": "ПРОСКУРНИКОВА Светлана Михайловна",
+    "phone": "2462650, 2462651",
+    "description": "ул. Пролетарская, д. 21-23, г. Кронштадт, Санкт-Петербург,",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 110,
+  "fields": {
+    "district": "КРОНШТАДТСКИЙ",
+    "fio_judgment": "КОВИЗИНА Лилия Анатольевна",
+    "phone": "2462654, 2462655",
+    "description": "ул. Пролетарская, д. 21-23, г. Кронштадт, Санкт-Петербург,",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 111,
+  "fields": {
+    "district": "КУРОРТНЫЙ",
+    "fio_judgment": "СИМОНОВА  Ираида Евгеньевна",
+    "phone": "2465257, 2465258",
+    "description": "ул. Токарева, д. 15, литера А, г. Сестрорецк, Санкт-Петербург,197706",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 112,
+  "fields": {
+    "district": "КУРОРТНЫЙ",
+    "fio_judgment": "МОРГУНОВА Светлана Ивановна",
+    "phone": "2465255, 2465252",
+    "description": "ул. Володарского, д. 1, литера А, г. Сестрорецк, Санкт-Петербург,197706",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 113,
+  "fields": {
+    "district": "КУРОРТНЫЙ",
+    "fio_judgment": "САЛЬНИКОВА  Галина Владимировна",
+    "phone": "2465262, 2465263",
+    "description": "пр. Ленина, д. 18,   г. Зеленогорск, Санкт-Петербург,197720",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 114,
+  "fields": {
+    "district": "ПЕТРОДВОРЦОВЫЙ",
+    "fio_judgment": "ВИНОГРАДОВА Елена Вячеславовна",
+    "phone": "2465986, 2465985",
+    "description": "Александровская ул., д. 13, г. Ломоносов, Санкт-Петербург, 198412",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 115,
+  "fields": {
+    "district": "ПЕТРОДВОРЦОВЫЙ",
+    "fio_judgment": "УРОВА Наталья Григорьевна",
+    "phone": "2465991, 2465990",
+    "description": "Дворцовый пр., д. 40, г. Ломоносов, Санкт-Петербург, 198412",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 116,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "КОНДРАТЬЕВА  Анастасия Александровна",
+    "phone": "5739781, 5739779",
+    "description": "Новоизмайловский пр., д. 67, к. 2,  Санкт-Петербург, 196247",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 117,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "ДОЛА Елена Петровна",
+    "phone": "2465324, 2465318",
+    "description": "ул. Глеба Успенского, д. 5, литера Б,  Санкт-Петербург, 196084",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 118,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "КОБЕНКО  Ольга Валентиновна",
+    "phone": "5739780, 2465937",
+    "description": "Новоизмайловский пр., д. 67, к.2,  Санкт-Петербург, 196247",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 119,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "БУЯЛО Ирина Олеговна",
+    "phone": "2466871, 2466872",
+    "description": "ул. Благодатная, д. 34,  Санкт-Петербург,196006",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 120,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "ПИРОГОВА  Наталья Александровна",
+    "phone": "2465313, 2465314",
+    "description": "Московский пр., д. 125, литера Б и В,  Санкт-Петербург, 196084",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 121,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "МИНИНА  Ольга Валериевна",
+    "phone": "2465322, 2465498",
+    "description": "ул. Глеба Успенского, д. 5, литера Б,  Санкт-Петербург, 196084",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 122,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "КАРАСЕВА  Наталья Александровна",
+    "phone": "2466874, 2466875",
+    "description": "ул. Благодатная, д. 34,  Санкт-Петербург,196006",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 123,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "МАРКОВА   Дарья Александровна",
+    "phone": ", 2465309",
+    "description": "Московский пр., д. 125, литера Б и В,  Санкт-Петербург, 196084",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 124,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "БОРИСЕНКО  Анна Сергеевна",
+    "phone": "2465312, 2465311",
+    "description": "Московский пр., д. 125, литера Б и В,  Санкт-Петербург, 196084",
+    "inspector": [
+      "yastreb"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 125,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "ТАРАСЕВИЧ Юлия Валерьевна",
+    "phone": "2465497, 2465320",
+    "description": "ул. Глеба Успенского, д. 5, литера Б,  Санкт-Петербург, 196084",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 126,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "ШАГОВИК Ирина Александровна",
+    "phone": "2465323, 2465326",
+    "description": "ул. Глеба Успенского, д. 5, литера Б,  Санкт-Петербург, 196084",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 127,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "АФАНАСЬЕВА Оксана Ивановна",
+    "phone": "2465306, 2465307",
+    "description": "Московский пр., д. 125, литера Б и В,  Санкт-Петербург, 196084",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 128,
+  "fields": {
+    "district": "МОСКОВСКИЙ",
+    "fio_judgment": "АЛЕКСАНДРОВА  Елена Сергеевна",
+    "phone": "2466878, 2466880",
+    "description": "ул. Благодатная, д. 34,  Санкт-Петербург,196006",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 129,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "АНДРЕЕВА  Екатерина Валериевна",
+    "phone": "2413913, 2413914",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург, 192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 130,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "РЫСЮК Валентина Юрьевна",
+    "phone": "2465328, 2465329",
+    "description": "пр. Обуховской обороны, д. 121,  литера А, Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 131,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": " ОРЛОВА  Вероника Владимировна",
+    "phone": "2413901, 24139022413902",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 132,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "БЕКОВА  Юлия Николаевна",
+    "phone": "2413903, 2413904",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 133,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": " РАЛДУГИНА  Оксана Геннадьевна",
+    "phone": "2413905, 2413906",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 134,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "БАРКАЛОВ  Сергей Васильевич",
+    "phone": "2413907, 2413908",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 135,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "ГАБДУЛЛИНА  Анна Рустамовна",
+    "phone": "2413909, 2413910",
+    "description": "ул. Крупской, д. 9, литера А, Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 136,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "ЧЕРНЕЦКАЯ  Майя Станиславовна",
+    "phone": "2413911, 2413912",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 137,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "КОНИК  Светлана Владимировна",
+    "phone": "2465331, 2465332",
+    "description": "пр. Обуховской обороны, д. 121,  литера А, Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 138,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "РУСАКОВА  Анастасия Сергеевна",
+    "phone": "2465334, 2465335",
+    "description": "пр. Обуховской обороны, д. 121,  литера А, Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 139,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "УРСЕГОВА  Елизавета Евгеньевна",
+    "phone": "2413915, 2413916",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 140,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "ОГАНЕСЯН  Мгер Артурович",
+    "phone": "2413917, 2413918",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 141,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "КАМАЛЬДИНОВ Олег Наильевич",
+    "phone": "2413919, 2413920",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 142,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "ГВОЗДЕВА-ТРИНК Наталья Александровна",
+    "phone": "2413921, 2413922",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 143,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "СИМОНЯН  Артур Мартынович",
+    "phone": "2413923, 2413924",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 144,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "БЕРЕЗИНА  Татьяна Викторовна",
+    "phone": "2413925, 2413926",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 145,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "СОЛОМАТИНА  Галина Михайловна",
+    "phone": "2413927, 2413928",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 146,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "ИВАНОВ Дмитрий Владимирович",
+    "phone": "2465364, 2465493",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 147,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "БАЙЫР Айзана Юрьевна",
+    "phone": "2465815, 2413931",
+    "description": "Школьная ул., д. 2, к. 2, зал № 2, г. Пушкин, Санкт-Петербург, 196607",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 148,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "РАСКОПИНА   Дарья Витальевна",
+    "phone": "2413932, 2413933",
+    "description": "ул. Крупской, д. 9, литера А,  Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 149,
+  "fields": {
+    "district": "НЕВСКИЙ",
+    "fio_judgment": "ПАВЛОВА Ольга Сергеевна",
+    "phone": "2413934, 2413935",
+    "description": "ул. Крупской, д. 9, литера А, Санкт-Петербург,192029",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 150,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "БОГУЛА Юлия Игоревна",
+    "phone": "2465343, 2465349",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 151,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": " ДАРИЧЕВА  Любовь Андреевна",
+    "phone": ", 2415130",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 152,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "ПОПОВА Анна Витальевна",
+    "phone": "2465929, 2465928",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 153,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "ЕРМОЛИНА Елена Константиновна",
+    "phone": ", 2415138",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 154,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "ПРОКОШКИНА Марина Викторовна",
+    "phone": "2465924, 2415134",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 155,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "БОГДАНОВА Екатерина Олеговна",
+    "phone": "2465933, 2415141",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 156,
+  "fields": {
+    "district": "ПЕТРОГРАДСКИЙ",
+    "fio_judgment": "СТРОМОВА Алина Александровна",
+    "phone": "2415140, 2415135",
+    "description": "Большая Разночинная ул., д. 23, литера Б, Санкт-Петербург, 197110",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 157,
+  "fields": {
+    "district": "ПЕТРОДВОРЦОВЫЙ",
+    "fio_judgment": "ГРИГОРЬЕВА Галина Андреевна",
+    "phone": "2466852, 2466853",
+    "description": "ул. Фронтовая, д. 7, п. Стрельна, Санкт-Петербург, 198515",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 158,
+  "fields": {
+    "district": "ПЕТРОДВОРЦОВЫЙ",
+    "fio_judgment": "ГОРБАЧЕВА Анна Владимировна",
+    "phone": "2465995, 2465996",
+    "description": "Бульвар Разведчика, д. 10, к. 3, г. Петродворец, Санкт-Петербург, 198516",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 159,
+  "fields": {
+    "district": "ПЕТРОДВОРЦОВЫЙ",
+    "fio_judgment": "СКОРОМНИКОВА  Мария Олеговна",
+    "phone": "2466802, 2466800",
+    "description": "ул. Ботаническая, д. 18, корп. 4, г. Петродворец, Санкт-Петербург, 198504",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 160,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ФЕДОТОВА  Татьяна Александровна",
+    "phone": "24652802465281, 2465282",
+    "description": "Сердобольская ул., д.73/27, литера А, Санкт-Петербург,197342",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 161,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": " ГОЛУБЕВА  Ольга Рудольфовна",
+    "phone": "4922736, 2465201",
+    "description": "Омская ул., д.21, литера А, Санкт-Петербург,197343",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 162,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ВАСИЛЬЕВА Ирина Анатольевна",
+    "phone": "2465267, 4098479",
+    "description": "  ул. Долгоозерная, д.3, корп.2, литера А,  Санкт-Петербург, 197373 ",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 163,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ФРУНЗЕ Юлия Михайловна",
+    "phone": "2465208, 2465209",
+    "description": " Омская ул., д.21, литера А, Санкт-Петербург,197343 ",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 164,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ДВОРЯНИНОВА Елена Евгеньевна",
+    "phone": "2465288, 4961948",
+    "description": "  Сердобольская ул., д.73/27, литера А, Санкт-Петербург,197342 ",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 165,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "РЕВВА Ольга Владимировна",
+    "phone": "2465283",
+    "description": "  Сердобольская ул., д.73/27, литера А, Санкт-Петербург,197342 ",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 166,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ДЕМЧЕНКО  Светлана Станиславовна",
+    "phone": "2465268, 2465269",
+    "description": "  ул. Долгоозерная, д. 3, корп. 2, литера А, Санкт-Петербург, 197373 ",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 167,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ЛЬВОВА Олеся Абдулгасановна",
+    "phone": "2460720, 2460721",
+    "description": "  ул. Маршала Новикова, д. 13, лит. А,  Санкт-Петербург, 197349",
+    "inspector": [
+      "kraeva"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 168,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ЧУРБАСОВА  Виктория Сергеевна",
+    "phone": "2465275, 2465274",
+    "description": " Серебристый бульвар, д. 13, корп. 1,  литера А, Санкт-Петербург, 197227 ",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 169,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ЧЕРНЯВСКАЯ Елена Александровна",
+    "phone": "2465276, 2465278",
+    "description": "  Богатырский пр., д. 57, корп. 1, литера Б,  Санкт-Петербург, 197372",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 170,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "АНДРЕЕВА Алина Владимировна",
+    "phone": "2465214, 2465215",
+    "description": " Омская ул., д. 21, литера А,  Санкт-Петербург, 197343",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 171,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "КАЛАШНИКОВА Светлана Алексеевна",
+    "phone": "2466815, 2466816",
+    "description": "  пр. Королева, д. 44, корп. 2, литера А, ",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 172,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ТРИШИНА Любовь Александровна",
+    "phone": "2465213, 2465204",
+    "description": "Омская ул., д. 21, литера А, Санкт-Петербург, 197343",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 173,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "ГУСЕВА Елена Викторовна",
+    "phone": "2460723, 2460724",
+    "description": "ул. Маршала Новикова, д. 13, лит. А, Санкт-Петербург, 197349",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 174,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "БОБРОВА Ольга Андреевна",
+    "phone": "2465217, 2465218",
+    "description": "Омская ул., д. 21, литера А, Санкт-Петербург, 197343",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 175,
+  "fields": {
+    "district": "ПРИМОРСКИЙ",
+    "fio_judgment": "МОРОЗОВА Василина Анатольевна",
+    "phone": "4928005, 2465420",
+    "description": "Омская ул., д. 21, литера А, Санкт-Петербург, 197343",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 176,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "КАРАМОВА Марта Рамиковна",
+    "phone": "2466861, 2465346",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 177,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "ИЛЬИНА Ирина Львовна",
+    "phone": "2465349, 2466862",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 178,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "ГУЧИНСКИЙ Игорь Иванович",
+    "phone": "2465353, 2465354",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 179,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "ГИРИНА Елена Николаевна",
+    "phone": "2466864, 2465340",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 180,
+  "fields": {
+    "district": "ПУШКИНСКИЙ",
+    "fio_judgment": "ЯКИМОВА  Людмила Владимировна",
+    "phone": "2465342, 2465338",
+    "description": "Школьная ул., д. 23, литера А, г. Пушкин, Санкт-Петербург,196607",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 181,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "БУРВЯШОВА Виктория Викторовна",
+    "phone": "2465402, 2465403",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 182,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ДОБРЯНЦЕВА Оксана Анатольевна",
+    "phone": "2465404, 2465405",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 183,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ЛОБАНОВ Евгений Владимирович",
+    "phone": "2465406, 2465407",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 184,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "СЕРДЮКОВА Юлия Сергеевна",
+    "phone": "2465409, 2465410",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 185,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "СОНИНА Мария Николаевна",
+    "phone": "2465414, 2465413",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 186,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "КОРОГОДОВ Дмитрий Анатольевич",
+    "phone": "2465415, 2465416",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 187,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "БЕВЗА Данил Михайлович",
+    "phone": "2465418, 2465419",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 188,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "УШАРНОВА Марина Игоревна",
+    "phone": "2465422, 2465423",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 189,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ГОРЯЧЕВ Дмитрий Владимирович",
+    "phone": "2465450, 2465425",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 190,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ЛЕБЕДЕВА Софья Леовна",
+    "phone": "2465427, 2465428",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 191,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "РУНОВ Дмитрий Юрьевич",
+    "phone": "2465453, 2465454",
+    "description": "ул. Самойловой, д.12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 192,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "БЛАЖНОВ  Александр Александрович",
+    "phone": "2465451, 2465452",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 193,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "КУРСКИЙ Анатолий Алексеевич",
+    "phone": "2465435, 2465434",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 194,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ТАРАСЕНКО Егор Анатольевич",
+    "phone": "2465455, 2465437",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 195,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ЛИТВИН  Виктория Юрьевна",
+    "phone": "2465439, 2465440",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 196,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ФЕДОРОВА Жанна Анатольевна",
+    "phone": "2465442",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 197,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ГАВРИКОВ Сергей Николаевич",
+    "phone": "2465444, 2465445",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 198,
+  "fields": {
+    "district": "ФРУНЗЕНСКИЙ",
+    "fio_judgment": "ЕГИОЯ Дмитрий Валерьевич",
+    "phone": "2465447, 2465448",
+    "description": "ул. Самойловой, д. 12, Санкт-Петербург, 192102",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 199,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "МАРДОЯН  Анастасия Евгеньевна",
+    "phone": "2465809, 7196297",
+    "description": "Невский пр., д. 84-86, литера Б,  Санкт-Петербург, 191025",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 200,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "КРАСОТКИНА  Елена Владимировна",
+    "phone": "4172010, 4172009",
+    "description": "пр. Чернышевского, д. 17, литера А,  Санкт-Петербург, 191123",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 201,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ЯНЧУКОВ  Дмитрий Анатольевич",
+    "phone": "2465806",
+    "description": "ул. Чайковского, д. 4, литера А,  Санкт-Петербург, 191028",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 202,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ГЛАЗКОВА Татьяна Александровна",
+    "phone": "2465803, 2465802",
+    "description": "Лиговский пр., д. 56, литера Е,  Санкт-Петербург, 191040",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 203,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "КУЗНЕЦОВ  Алексей Валерьевич",
+    "phone": "2466893, 2466894",
+    "description": "наб. реки Фонтанки, д. 76, лит. В,  Санкт-Петербург, 191180",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 204,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": " ЧАЛИГАВА   Нелли Романозовна",
+    "phone": "5766538, 5766524",
+    "description": "ул. Красного Текстильщика, д. 9/11,  литера А, пом. 14Н, Санкт-Петербург, 191124",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 205,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ПОЛУНИНА  Ольга Николаевна",
+    "phone": "5766587, 5766542",
+    "description": "ул. Красного Текстильщика, д. 9/11,  литера А, пом. 14Н, Санкт-Петербург, 191124",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 206,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ЕСЮТИН  Роман Валерьевич",
+    "phone": "2466897, 2466898",
+    "description": "наб. реки Фонтанки, д. 76, лит. В,  Санкт-Петербург, 191180",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 207,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "КУСТАНОВИЧ  Жанна Евгеньевна",
+    "phone": "2413287, 7102986",
+    "description": "4-я Советская ул., д. 26, литера А, Санкт-Петербург, 191036",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 208,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "ПАЛЬЯНОВА Анна Владимировна",
+    "phone": "2413288, 2413284",
+    "description": " 4-я Советская ул., д. 26, литера А,  Санкт-Петербург, 191036",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 209,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "НАСИННЫК Карина Александровна",
+    "phone": "2413286, 2413285",
+    "description": "4-я Советская ул., д. 26, литера А, Санкт-Петербург, 191036",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 210,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "БАРАНОВА Елена Владимировна",
+    "phone": "2413280, 2413282",
+    "description": "4-я Советская ул., д. 26, литера А, Санкт-Петербург, 191036",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "judgment.judgment",
+  "pk": 211,
+  "fields": {
+    "district": "ЦЕНТРАЛЬНЫЙ",
+    "fio_judgment": "РОДИОНОВА Вероника Викторовна",
+    "phone": "2413281, 2413283",
+    "description": "4-я Советская ул., д. 26, литера А, Санкт-Петербург, 191036",
+    "inspector": [
+      "kostygov"
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-14T13:01:40.632Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "object_id": "1",
+    "object_repr": "помощник мирового судьи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-14T13:01:45.011Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "object_id": "2",
+    "object_repr": "секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-14T13:01:48.524Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancy"
+    ],
+    "object_id": "3",
+    "object_repr": "секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "6",
+    "object_repr": "Суд. участок №169 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "5",
+    "object_repr": "Суд. участок №153 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "4",
+    "object_repr": "Суд. участок №153 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "3",
+    "object_repr": "Суд. участок №129 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "2",
+    "object_repr": "Суд. участок №105 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-14T13:02:42.546Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "1",
+    "object_repr": "Суд. участок №12 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-14T13:03:25.216Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "duplenskiy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-14T14:19:53.364Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "duplenskiy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-14T14:24:27.024Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "belousova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-14T14:24:37.190Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "guseva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-14T14:24:55.547Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "guseva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-14T14:25:04.582Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "kostygov",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-14T14:26:32.439Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "kostygov",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-14T14:26:45.274Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "u.maksimova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-14T14:26:52.900Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "yastreb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-14T14:27:28.579Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "belousova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-14T14:27:50.449Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "guseva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-14T14:28:02.077Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "kostygov",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-14T14:28:08.566Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "u.maksimova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-14T14:28:14.186Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "yastreb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-14T14:29:45.836Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Ин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-14T14:31:10.372Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Инспектор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-14T14:31:25.883Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "kostygov",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-14T14:33:09.092Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Инспектор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-14T14:33:41.047Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "belousova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-14T14:33:47.903Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "guseva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-14T14:33:57.813Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "u.maksimova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-07-14T14:34:03.439Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "yastreb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-07-14T14:39:24.010Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "1",
+    "object_repr": "Орехов Семен (Edvardkenua@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-07-14T14:39:34.682Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "1",
+    "object_repr": "Орехов Семен (Edvardkenua@yandex.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\", \"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-07-14T14:39:57.408Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "1",
+    "object_repr": "Орехов Семен (Edvardkenua@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "16",
+    "object_repr": "Суд. участок №203 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "15",
+    "object_repr": "Суд. участок №198 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "14",
+    "object_repr": "Суд. участок №169 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "13",
+    "object_repr": "Суд. участок №115 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "12",
+    "object_repr": "Суд. участок №153 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "11",
+    "object_repr": "Суд. участок №146 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "10",
+    "object_repr": "Суд. участок №140 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "9",
+    "object_repr": "Суд. участок №129 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "8",
+    "object_repr": "Суд. участок №13 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-07-15T08:19:00.711Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "7",
+    "object_repr": "Суд. участок №12 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-07-15T08:24:04.690Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "belousova",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-07-15T08:32:14.757Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "guseva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-07-15T08:33:32.880Z",
+    "user": [
+      "guseva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "object_id": "1",
+    "object_repr": "Орехов Семен (Edvardkenua@yandex.ru)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-07-15T08:35:18.897Z",
+    "user": [
+      "guseva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "2",
+    "object_repr": "Орехов Семён (Edvardkenua@yandex.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\", \"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-07-15T08:36:24.185Z",
+    "user": [
+      "guseva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "2",
+    "object_repr": "Орехов Семён (Edvardkenua@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-07-15T08:38:25.645Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "yastreb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-07-15T08:46:11.630Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "kraeva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-07-15T08:46:22.053Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "kraeva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-07-15T08:48:29.284Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "kraeva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-07-15T08:49:48.335Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "2",
+    "object_repr": "Орехов Семён (Edvardkenua@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-07-18T08:48:27.618Z",
+    "user": [
+      "kraeva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidate"
+    ],
+    "object_id": "2",
+    "object_repr": "Орехов Семён (Edvardkenua@yandex.ru)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-07-18T08:49:13.598Z",
+    "user": [
+      "kraeva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "4",
+    "object_repr": "Малыхина Марина (marfa-degtyareva@mail.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-07-18T08:49:56.131Z",
+    "user": [
+      "kraeva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "4",
+    "object_repr": "Малыхина Марина (marfa-degtyareva@mail.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-07-28T07:45:26.342Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "34",
+    "object_repr": "Суд. участок №210 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-07-28T09:16:12.901Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "45",
+    "object_repr": "Суд. участок №40 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-07-28T13:34:41.205Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "46",
+    "object_repr": "Суд. участок №202 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-07-29T12:05:41.690Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "47",
+    "object_repr": "Суд. участок №8 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-07-31T10:28:57.333Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "48",
+    "object_repr": "Суд. участок №162 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-07-31T10:33:30.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "49",
+    "object_repr": "Суд. участок №120 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-05T14:06:47.813Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "50",
+    "object_repr": "Суд. участок №11 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "44",
+    "object_repr": "Суд. участок №202 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "38",
+    "object_repr": "Суд. участок №55 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "36",
+    "object_repr": "Суд. участок №40 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "35",
+    "object_repr": "Суд. участок №1 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "33",
+    "object_repr": "Суд. участок №207 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "30",
+    "object_repr": "Суд. участок №169 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "29",
+    "object_repr": "Суд. участок №19 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "21",
+    "object_repr": "Суд. участок №82 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-06T07:20:09.920Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "19",
+    "object_repr": "Суд. участок №65 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-08-07T08:12:27.184Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "13",
+    "object_repr": "Савастьянова Карина (karinasavastyanova@yandex.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-08-07T08:12:56.087Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "8",
+    "object_repr": "Коржан Надежда (korzhan.nadya@gmail.com) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-08-07T08:13:08.017Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "12",
+    "object_repr": "Дзукаева Наталья (Natali.Dzukaeva@mail.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-08-07T08:13:29.512Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "5",
+    "object_repr": "Смирнова Вероника (missis.ivanova-nika@ya.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-08-07T08:22:41.267Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-08 с 10:00:00 до 11:00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-08-07T08:23:45.706Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "object_id": "2",
+    "object_repr": "2025-08-08 с 10:00:00 до 11:00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-08-07T08:24:11.239Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "object_id": "1",
+    "object_repr": "2025-08-08 с 10:00:00 до 11:00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-08-07T13:47:49.043Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "51",
+    "object_repr": "Суд. участок №174 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-08-08T07:55:07.070Z",
+    "user": [
+      "kraeva"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "11",
+    "object_repr": "Гурьянова Арина (Arina-guryanova1996@mail.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\", \"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-08-08T09:30:27.736Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "28",
+    "object_repr": "Суд. участок №154 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-08-08T09:30:27.736Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "27",
+    "object_repr": "Суд. участок №151 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-08-11T12:17:47.786Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "26",
+    "object_repr": "Суд. участок №148 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-08-11T12:17:47.786Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "24",
+    "object_repr": "Суд. участок №138 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-08-11T12:17:47.786Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "22",
+    "object_repr": "Суд. участок №119 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-08-11T12:19:40.039Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "52",
+    "object_repr": "Суд. участок №40 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-08-11T12:20:30.547Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "53",
+    "object_repr": "Суд. участок №48 - помощник мирового судьи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-08-11T12:25:30.840Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "54",
+    "object_repr": "Суд. участок №93 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-08-11T12:26:20.416Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "45",
+    "object_repr": "Суд. участок №40 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-08-11T12:27:59.830Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "55",
+    "object_repr": "Суд. участок №137 - помощник мирового судьи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-08-11T12:31:44.054Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "56",
+    "object_repr": "Суд. участок №154 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "51",
+    "object_repr": "Суд. участок №174 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "49",
+    "object_repr": "Суд. участок №120 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "47",
+    "object_repr": "Суд. участок №8 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "46",
+    "object_repr": "Суд. участок №202 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "39",
+    "object_repr": "Суд. участок №55 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "37",
+    "object_repr": "Суд. участок №44 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "31",
+    "object_repr": "Суд. участок №203 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "23",
+    "object_repr": "Суд. участок №120 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-08-11T12:43:36.091Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "17",
+    "object_repr": "Суд. участок №3 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-08-12T07:57:16.107Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "57",
+    "object_repr": "Суд. участок №174 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-08-12T07:57:34.126Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "58",
+    "object_repr": "Суд. участок №182 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "58",
+    "object_repr": "Суд. участок №182 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "56",
+    "object_repr": "Суд. участок №154 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "55",
+    "object_repr": "Суд. участок №137 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "52",
+    "object_repr": "Суд. участок №40 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "40",
+    "object_repr": "Суд. участок №87 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "32",
+    "object_repr": "Суд. участок №204 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "20",
+    "object_repr": "Суд. участок №72 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-09-08T15:39:03.328Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "18",
+    "object_repr": "Суд. участок №58 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-09-08T15:40:47.617Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "59",
+    "object_repr": "Суд. участок №7 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-09-08T15:41:12.478Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "60",
+    "object_repr": "Суд. участок №91 - помощник мирового судьи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-09-08T15:41:32.501Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "61",
+    "object_repr": "Суд. участок №111 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-09-08T15:42:02.568Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "62",
+    "object_repr": "Суд. участок №137 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-09-08T15:42:23.742Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "63",
+    "object_repr": "Суд. участок №146 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-09-08T15:42:42.859Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "64",
+    "object_repr": "Суд. участок №178 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-09-08T15:43:01.814Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "65",
+    "object_repr": "Суд. участок №198 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-09-08T15:43:30.942Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "66",
+    "object_repr": "Суд. участок №202 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-09-08T15:43:53.767Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "67",
+    "object_repr": "Суд. участок №206 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-09-08T15:44:12.414Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "68",
+    "object_repr": "Суд. участок №207 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-09-08T15:44:44.308Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "69",
+    "object_repr": "Суд. участок №207 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-09-08T15:45:08.515Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "69",
+    "object_repr": "Суд. участок №207 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-09-17T08:00:42.482Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "19",
+    "object_repr": "Якубова Диана (shamsi20@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\", \"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-09-17T08:11:42.523Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "19",
+    "object_repr": "Якубова Диана (shamsi20@yandex.ru) (access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-09-17T08:29:27.030Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "5",
+    "object_repr": "Смирнова Вероника (missis.ivanova-nika@ya.ru) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-09-17T10:02:20.378Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "68",
+    "object_repr": "Суд. участок №207 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-09-17T10:02:20.378Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "66",
+    "object_repr": "Суд. участок №202 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-09-17T10:02:20.378Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "62",
+    "object_repr": "Суд. участок №137 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-09-17T10:02:20.378Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "60",
+    "object_repr": "Суд. участок №91 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-09-17T10:02:20.378Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "53",
+    "object_repr": "Суд. участок №48 - помощник мирового судьи",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-09-17T10:03:57.917Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "59",
+    "object_repr": "Суд. участок №7 - секретарь судебного заседания",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-09-17T10:03:57.917Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "25",
+    "object_repr": "Суд. участок №143 - секретарь суда",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-09-17T10:04:34.548Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "70",
+    "object_repr": "Суд. участок №18 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-09-17T10:05:05.289Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "71",
+    "object_repr": "Суд. участок №114 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-09-17T10:05:36.122Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "72",
+    "object_repr": "Суд. участок №147 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-09-17T10:06:24.529Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "73",
+    "object_repr": "Суд. участок №172 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-09-17T10:06:54.989Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "74",
+    "object_repr": "Суд. участок №65 - секретарь суда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-09-17T10:07:10.408Z",
+    "user": [
+      "duplenskiy"
+    ],
+    "content_type": [
+      "judgment",
+      "vacancyinjudgment"
+    ],
+    "object_id": "75",
+    "object_repr": "Суд. участок №65 - секретарь судебного заседания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-09-17T10:30:48.823Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "14",
+    "object_repr": "Джимиева Дзерасса (Dzerarca@gmail.com) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-09-17T10:32:08.412Z",
+    "user": [
+      "belousova"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "14",
+    "object_repr": "Джимиева Дзерасса (Dzerarca@gmail.com) (not_access)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-09-17T10:35:05.315Z",
+    "user": [
+      "belousova"
+    ],
+    "content_type": [
+      "candidate",
+      "candidateaccess"
+    ],
+    "object_id": "14",
+    "object_repr": "Джимиева Дзерасса (Dzerarca@gmail.com) (not_access)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0434\\u0438\\u0434\\u0430\\u0442\\u0443\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-09-19T06:40:29.849Z",
+    "user": [
+      "yastreb"
+    ],
+    "content_type": [
+      "timeticket",
+      "timeuserwindow"
+    ],
+    "object_id": "2",
+    "object_repr": "2025-08-08 с 10:00:00 до 11:00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

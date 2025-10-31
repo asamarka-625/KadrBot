@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: kvspb_time_ticket/
+    ports:
+      - "8000:80"
+    volumes:
+      - ./data:/app/data/database/
+    restart: unless-stopped
+
+  bot:
+    build: telegram_bot/
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    volumes:
+      - ./logs/:/telegram_bot/logs/
+    restart: unless-stopped
