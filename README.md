@@ -13,7 +13,7 @@ https://github.com/asamarka-625/KadrBot/blob/master/telegram_bot/services/servic
 
 ## Как запустить
 1. Скачиваем репозитории
-`git https://github.com/asamarka-625/KadrBot.git` 
+`git clone https://github.com/asamarka-625/KadrBot.git` 
 
 2. Необходимо создать файл bot.env в той же папке где находиться файл `docker-compose.yml`, внутри которого должно следующее:
 ```
