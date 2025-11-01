@@ -35,6 +35,133 @@ async def administration_callback_run(callback_query: CallbackQuery, state: FSMC
     await callback_query.answer(text="Пожалуйста, выберите интересующую вас должность", show_alert=False)
 
 
+# Колбэк информации по заявке
+@router.callback_query(StateFilter('*'), F.data == "request")
+async def info_request_callback_run(callback_query: CallbackQuery):
+    user_id = callback_query.from_user.id
+
+    data = fetch_candidate_status(user_id)
+    status = data["status"]
+    message_to_candidate = data['message_to_candidate']
+
+    text_to_send =  ("Документы не были получены инспектором. "
+                     "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
+                     "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
+
+    if message_to_candidate:
+        text_to_send =  "Сообщение от проверяющего инспектора:\n\n" \
+                        f"💬 {str(message_to_candidate)}"
+
+    if status == "not_read":
+        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
+                "Ваши документы будут проверены инспектором в ближайшее время.\n"
+                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
+                "'Проверить статус заявки'")
+
+    elif status == "not_access":
+        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
+                f"{text_to_send}",)
+        resend_document_status(user_id)
+
+    elif status == "access":
+        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
+                "Теперь вы можете начать процесс поступления на гос. службу.")
+
+    else:
+        await callback_query.answer(text="Ошибка", show_alert=False)
+        return
+
+    await edit_message(
+        callback_query.message,
+        text=text,
+        keyboard=await create_info_request_inline(status)
+    )
+    await callback_query.answer(text="Информация", show_alert=False)
+
+
+# Колбэк статуса заявки
+@router.callback_query(F.data == "request-status")
+async def status_request_callback_run(callback_query: CallbackQuery):
+    user_id = callback_query.from_user.id
+
+    data = fetch_candidate_status(user_id)
+    status = data["status"]
+    message_to_candidate = data['message_to_candidate']
+
+    text_to_send =  ("Документы не были получены инспектором. "
+                     "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
+                     "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
+
+    if message_to_candidate:
+        text_to_send =  "Сообщение от проверяющего инспектора:\n\n" \
+                        f"💬 {str(message_to_candidate)}"
+
+    if status == "not_read":
+        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
+                "Ваши документы будут проверены инспектором в ближайшее время.\n"
+                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
+                "'Проверить статус заявки'")
+
+    elif status == "not_access":
+        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
+                f"{text_to_send}",)
+        resend_document_status(user_id)
+
+    elif status == "access":
+        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
+                "Теперь вы можете начать процесс поступления на гос. службу.")
+
+    else:
+        await callback_query.answer(text="Ошибка", show_alert=False)
+        return
+
+    await callback_query.message.answer(
+        text,
+        reply_markup=await create_info_request_inline(status)
+    )
+    await callback_query.answer(text="Информация", show_alert=False)
+
+
+# Колбэк подачи документов
+@router.callback_query(F.data == "request-repeat")
+async def collect_documents_callback_run(callback_query: CallbackQuery):
+    await callback_query.message.answer(
+        text="Наши поздравления!\n"
+             "Для поступления на государственную гражданскую службу необходимо предоставить следующие документы.")
+
+    media_docs = [
+        InputMediaDocument(media=FSInputFile("telegram_bot/docs/hiring_docs/Заявление на прием.pdf")),
+        InputMediaDocument(media=FSInputFile("telegram_bot/docs/hiring_docs/Список док-ов на прием.doc"))
+    ]
+
+    await callback_query.message.answer(
+        text="Документы, которые нужно заполнить для трудоустройства",
+    )
+    await callback_query.message.answer_media_group(media=media_docs)
+
+    await callback_query.message.answer(
+        "Также обращаем ваше внимание на заполнение справки о доходах и расходах. Перед заполнением ознакомьтесь с инструкцией,"
+        "которая доступна по ссылке: https://disk.yandex.ru/d/HRKduVqyksUlvg",
+        reply_markup=await create_success_collect_inline()
+    )
+
+    await callback_query.answer(text="необходимо предоставить следующие документы", show_alert=False)
+
+
+# Колбэк связи со специалистом
+@router.callback_query(F.data == "request-collect")
+async def connect_specialist_callback_run(callback_query: CallbackQuery):
+    await callback_query.message.answer(
+        "Отлично. \nТеперь вам необходимо позвонить специалисту по заполнению справки БК "
+        "и направить вашу справку на проверку."
+        "\n\nКонтакты специалиста для связи:"
+        "\n🧑‍💼 ФИО: Старинская Анна Сергеевна"
+        "\n📞 Телефон: 8 (812) 576-60-98"
+        "\n📧 Почта: a.starinskaya@zakon.gov.spb.ru"
+    )
+    await callback_query.answer(text="Необходимо позвонить специалисту по заполнению справки БК", show_alert=False)
+
+
 # Колбэк выбора должности
 @router.callback_query(PostAnketaStates.position)
 async def positions_callback_run(callback_query: CallbackQuery, state: FSMContext):
@@ -269,137 +396,4 @@ async def accept_request_callback_run(callback_query: CallbackQuery, state: FSMC
     )
 
     await callback_query.answer(text="Ваша заявка будет рассмотрена в течении трех рабочих дней", show_alert=False)
-
-
-# Колбэк информации по заявке
-@router.callback_query(StateFilter('*'), F.data == "request")
-async def info_request_callback_run(callback_query: CallbackQuery):
-    import logging
-
-    logging.info("step ---")
-
-    user_id = callback_query.from_user.id
-
-    data = fetch_candidate_status(user_id)
-    status = data["status"]
-    message_to_candidate = data['message_to_candidate']
-
-    text_to_send =  ("Документы не были получены инспектором. "
-                     "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
-                     "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
-
-    if message_to_candidate:
-        text_to_send =  "Сообщение от проверяющего инспектора:\n\n" \
-                        f"💬 {str(message_to_candidate)}"
-
-    if status == "not_read":
-        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
-                "Ваши документы будут проверены инспектором в ближайшее время.\n"
-                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
-                "'Проверить статус заявки'")
-
-    elif status == "not_access":
-        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
-                f"{text_to_send}",)
-        resend_document_status(user_id)
-
-    elif status == "access":
-        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
-                "Теперь вы можете начать процесс поступления на гос. службу.")
-
-    else:
-        await callback_query.answer(text="Ошибка", show_alert=False)
-        return
-
-    logging.info(f"text: {text}")
-
-    await edit_message(
-        callback_query.message,
-        text=text,
-        keyboard=await create_info_request_inline(status)
-    )
-    await callback_query.answer(text="Информация", show_alert=False)
-
-
-# Колбэк статуса заявки
-@router.callback_query(F.data == "request-status")
-async def status_request_callback_run(callback_query: CallbackQuery):
-    user_id = callback_query.from_user.id
-
-    data = fetch_candidate_status(user_id)
-    status = data["status"]
-    message_to_candidate = data['message_to_candidate']
-
-    text_to_send =  ("Документы не были получены инспектором. "
-                     "Проверьте, отправляли ли вы письмо с документами с указанной выше почты?\n\n "
-                     "Попробуйте отправить документы еще раз и нажмите кнопку 'Я отправил документы повторно'"),
-
-    if message_to_candidate:
-        text_to_send =  "Сообщение от проверяющего инспектора:\n\n" \
-                        f"💬 {str(message_to_candidate)}"
-
-    if status == "not_read":
-        text = ("Статус вашей заявки:\n🔃 На рассмотрении. 🔃\n"
-                "Ваши документы будут проверены инспектором в ближайшее время.\n"
-                "Важно, проверяйте статус ваших документов нажав на кнопку:\n\n"
-                "'Проверить статус заявки'")
-
-    elif status == "not_access":
-        text = ("Статус вашей заявки: \n❌ Документы не поступили ❌\n"
-                f"{text_to_send}",)
-        resend_document_status(user_id)
-
-    elif status == "access":
-        text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
-                "Теперь вы можете начать процесс поступления на гос. службу.")
-
-    else:
-        await callback_query.answer(text="Ошибка", show_alert=False)
-        return
-
-    await callback_query.message.answer(
-        text,
-        reply_markup=await create_info_request_inline(status)
-    )
-    await callback_query.answer(text="Информация", show_alert=False)
-
-
-# Колбэк подачи документов
-@router.callback_query(F.data == "request-repeat")
-async def collect_documents_callback_run(callback_query: CallbackQuery):
-    await callback_query.message.answer(
-        text="Наши поздравления!\n"
-             "Для поступления на государственную гражданскую службу необходимо предоставить следующие документы.")
-
-    media_docs = [
-        InputMediaDocument(media=FSInputFile("telegram_bot/docs/hiring_docs/Заявление на прием.pdf")),
-        InputMediaDocument(media=FSInputFile("telegram_bot/docs/hiring_docs/Список док-ов на прием.doc"))
-    ]
-
-    await callback_query.message.answer(
-        text="Документы, которые нужно заполнить для трудоустройства",
-    )
-    await callback_query.message.answer_media_group(media=media_docs)
-
-    await callback_query.message.answer(
-        "Также обращаем ваше внимание на заполнение справки о доходах и расходах. Перед заполнением ознакомьтесь с инструкцией,"
-        "которая доступна по ссылке: https://disk.yandex.ru/d/HRKduVqyksUlvg",
-        reply_markup=await create_success_collect_inline()
-    )
-
-    await callback_query.answer(text="необходимо предоставить следующие документы", show_alert=False)
-
-
-# Колбэк связи со специалистом
-@router.callback_query(F.data == "request-collect")
-async def connect_specialist_callback_run(callback_query: CallbackQuery):
-    await callback_query.message.answer(
-        "Отлично. \nТеперь вам необходимо позвонить специалисту по заполнению справки БК "
-        "и направить вашу справку на проверку."
-        "\n\nКонтакты специалиста для связи:"
-        "\n🧑‍💼 ФИО: Старинская Анна Сергеевна"
-        "\n📞 Телефон: 8 (812) 576-60-98"
-        "\n📧 Почта: a.starinskaya@zakon.gov.spb.ru"
-    )
-    await callback_query.answer(text="Необходимо позвонить специалисту по заполнению справки БК", show_alert=False)
 
