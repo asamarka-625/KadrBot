@@ -99,8 +99,8 @@ async def site_callback_run(callback_query: CallbackQuery, state: FSMContext):
 
     text = (f"<b>Информация по участку №{id_site}\n\n</b>"
             f"<b>ФИО мирового судьи:</b> \n{data['fio_judgment']}"
-            f"<b>\nТелефон:</b>{data['phone']}"
-            f"<b>\nРайон:</b><i>{data['district']}</i>"
+            f"<b>\nТелефон:</b> {data['phone']}"
+            f"<b>\nРайон:</b><i> {data['district']}</i>"
             f"<b>\nИнформация об участке:</b>\n{data['description']}")
 
     await edit_message(
@@ -274,6 +274,10 @@ async def accept_request_callback_run(callback_query: CallbackQuery, state: FSMC
 # Колбэк информации по заявке
 @router.callback_query(StateFilter('*'), F.data == "request")
 async def info_request_callback_run(callback_query: CallbackQuery):
+    import logging
+
+    logging.info("step ---")
+
     user_id = callback_query.from_user.id
 
     data = fetch_candidate_status(user_id)
@@ -306,6 +310,8 @@ async def info_request_callback_run(callback_query: CallbackQuery):
     else:
         await callback_query.answer(text="Ошибка", show_alert=False)
         return
+
+    logging.info(f"text: {text}")
 
     await edit_message(
         callback_query.message,
