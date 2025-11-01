@@ -20,6 +20,7 @@ async def create_districts_inline(districts: dict):
     builder = InlineKeyboardBuilder()
 
     for district in districts:
+        print(district)
         builder.button(
             text=district["name"],
             callback_data=district["name"]

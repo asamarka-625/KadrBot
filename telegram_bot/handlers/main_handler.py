@@ -68,6 +68,8 @@ async def answer_for_faq_callback_run(callback_query: CallbackQuery):
 @router.message(StateFilter('*'), Command("status"))
 @router.message(StateFilter('*'), F.text.in_(config.STATUS))
 async def request_command(message: Message, state: FSMContext):
+    await state.clear()
+
     user_id = message.from_user.id
 
     data = fetch_candidate_status(user_id)
@@ -101,7 +103,6 @@ async def request_command(message: Message, state: FSMContext):
     elif status == "access":
         text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
                 "Теперь вы можете начать процесс поступления на гос. службу.")
-        await state.set_state(PostAnketaStates.user_collected_all_docs)
 
     else:
         await message.answer(text="Ошибка", show_alert=False)

@@ -273,7 +273,7 @@ async def accept_request_callback_run(callback_query: CallbackQuery, state: FSMC
 
 # Колбэк информации по заявке
 @router.callback_query(F.data == "request")
-async def info_request_callback_run(callback_query: CallbackQuery, state: FSMContext):
+async def info_request_callback_run(callback_query: CallbackQuery):
     user_id = callback_query.from_user.id
 
     data = fetch_candidate_status(user_id)
@@ -317,7 +317,7 @@ async def info_request_callback_run(callback_query: CallbackQuery, state: FSMCon
 
 # Колбэк статуса заявки
 @router.callback_query(F.data == "request-status")
-async def status_request_callback_run(callback_query: CallbackQuery, state: FSMContext):
+async def status_request_callback_run(callback_query: CallbackQuery):
     user_id = callback_query.from_user.id
 
     data = fetch_candidate_status(user_id)
@@ -346,7 +346,6 @@ async def status_request_callback_run(callback_query: CallbackQuery, state: FSMC
     elif status == "access":
         text = ("Статус вашей заявки: \n✅ Принято в работу ✅\n"
                 "Теперь вы можете начать процесс поступления на гос. службу.")
-        await state.set_state(PostAnketaStates.user_collected_all_docs)
 
     else:
         await callback_query.answer(text="Ошибка", show_alert=False)
@@ -361,7 +360,7 @@ async def status_request_callback_run(callback_query: CallbackQuery, state: FSMC
 
 # Колбэк подачи документов
 @router.callback_query(F.data == "request-repeat")
-async def collect_documents_callback_run(callback_query: CallbackQuery, state: FSMContext):
+async def collect_documents_callback_run(callback_query: CallbackQuery):
     await callback_query.message.answer(
         text="Наши поздравления!\n"
              "Для поступления на государственную гражданскую службу необходимо предоставить следующие документы.")

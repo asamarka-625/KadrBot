@@ -12,6 +12,3 @@ class PostAnketaStates(StatesGroup):
     fio = State()
     email = State()
     user_send_docs = State()
-    user_waiting_anket = State()
-    user_collected_all_docs = State()
-    enter_fio = State()
