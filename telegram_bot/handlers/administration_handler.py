@@ -272,7 +272,7 @@ async def accept_request_callback_run(callback_query: CallbackQuery, state: FSMC
 
 
 # Колбэк информации по заявке
-@router.callback_query(F.data == "request")
+@router.callback_query(StateFilter('*'), F.data == "request")
 async def info_request_callback_run(callback_query: CallbackQuery):
     user_id = callback_query.from_user.id
 
