@@ -203,6 +203,8 @@ async def back_callback_run(callback_query: CallbackQuery, state: FSMContext):
                 "'<b>Я заполнил анкету на сайте</b>'")
         keyboard = await create_form_inline(id_site=id_site)
 
+        await state.set_state(PostAnketaStates.policy)
+
     else:
         await callback_query.answer()
         return
