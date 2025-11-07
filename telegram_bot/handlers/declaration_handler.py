@@ -4,7 +4,8 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.fsm.context import FSMContext
 # Внутренние модули
 from telegram_bot.core import config
-from telegram_bot.keyboards import create_declaration_inline, create_instructions_declaration_inline
+from telegram_bot.keyboards import (create_declaration_inline, create_instructions_declaration_inline,
+                                    create_main_keyboard)
 
 
 router = Router()
@@ -14,6 +15,12 @@ router = Router()
 @router.message(F.text.in_(config.DECLARATION))
 async def declaration_command(message: Message, state: FSMContext):
     await state.clear()
+
+    await message.answer(
+        "Предоставление декларации о расходах и доходов ⬇️",
+        reply_markup=await create_main_keyboard()
+    )
+
     await message.answer(
         "Выберите пожалуйста, в рамках чего вы хотите отправить декларацию",
         reply_markup=await create_declaration_inline()

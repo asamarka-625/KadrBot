@@ -34,6 +34,11 @@ async def vacancies_command(message: Message, state: FSMContext):
     await state.clear()
 
     await message.answer(
+        "Вакансии организаций ⬇️",
+        reply_markup=await create_main_keyboard()
+    )
+
+    await message.answer(
         "Выберите пожалуйста, в какое место вы хотите трудоустроиться",
         reply_markup=await create_vacancies_inline()
     )
@@ -43,6 +48,11 @@ async def vacancies_command(message: Message, state: FSMContext):
 @router.message(StateFilter('*'), F.text.in_(config.FAQ))
 async def faq_command(message: Message, state: FSMContext):
     await state.clear()
+
+    await message.answer(
+        "Ответы на самые частые вопросы по трудоустройству ⬇️",
+        reply_markup=await create_main_keyboard()
+    )
 
     await message.answer(
         text="Часто задаваемые вопросы",
