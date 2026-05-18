@@ -30,8 +30,6 @@ CSRF_TRUSTED_ORIGINS = ['https://hr.kvzpb-work.ru']
 
 # Application definition
 
-FORCE_SCRIPT_NAME = "/ur5iw7"
-
 STATIC_URL = "/ur5iw7/static/"
 MEDIA_URL = "/ur5iw7/media/"
 USE_X_FORWARDED_HOST = True
