@@ -40,19 +40,17 @@ schema_view = get_schema_view(
 from judgment import views as judgment_views
 
 urlpatterns = [
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path('admin/', admin.site.urls),
-    # path('api/free-time-windows', views.TimeUserWindowView.as_view(), name='free-time-windows'),
-    # path('api/take-time-windows', views.TakeTimeOrder.as_view(), name='take-time-windows'),
-    path('api/judgment/', include('judgment.urls')),
-    path('api/candidate/', include('candidate.urls')),
+    path('ur5iw7/', include([
+        path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+        path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
-    # Admin Panel
-    path('import_data', judgment_views.ImportJudgmentView.as_view(), name='import'),
-    path('import_data_vacancies', judgment_views.ImportVacanciesInJudgmentView.as_view(), name='import_data_vacancies'),
+        path('admin/', admin.site.urls),
 
+        path('import_data', judgment_views.ImportJudgmentView.as_view(), name='import'),
+        path('import_data_vacancies', judgment_views.ImportVacanciesInJudgmentView.as_view(),
+             name='import_data_vacancies'),
+    ])),
+     path('api/judgment/', include('judgment.urls')),
+     path('api/candidate/', include('candidate.urls'))
 ]
-
-
 

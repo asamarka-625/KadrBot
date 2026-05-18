@@ -1,0 +1,1846 @@
+2026-05-18 07:50:47,039 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 07:50:47,040 - dispatcher - INFO - Зарегистрировано 0 обработчиков событий
+2026-05-18 07:54:42,605 - root - INFO - Received BotStarted
+2026-05-18 07:54:42,606 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 07:54:54,559 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 07:54:54,559 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 07:57:17,524 - root - INFO - Received MESSAGE from [106984263]: [Моя заявка]
+2026-05-18 07:57:17,524 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 07:57:23,118 - root - INFO - Received MESSAGE from [106984263]: [прор]
+2026-05-18 07:57:23,118 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:01:36,715 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:01:36,716 - dispatcher - INFO - Зарегистрировано 0 обработчиков событий
+2026-05-18 08:01:44,839 - root - INFO - Received MESSAGE from [106984263]: [рпо]
+2026-05-18 08:01:44,839 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:02:48,622 - root - INFO - [<maxapi.dispatcher.Router object at 0x765b1dc07a70>, <maxapi.dispatcher.Router object at 0x765b1e479430>, <maxapi.dispatcher.Router object at 0x765b1db3dc40>, <maxapi.dispatcher.Router object at 0x765b1da3c500>]
+2026-05-18 08:02:48,909 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:02:48,909 - dispatcher - INFO - Зарегистрировано 0 обработчиков событий
+2026-05-18 08:03:29,193 - root - INFO - Received DialogCleared
+2026-05-18 08:03:29,194 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_CLEARED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:03:41,194 - root - INFO - Received DialogRemoved
+2026-05-18 08:03:41,195 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:03:41,759 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:03:44,889 - root - INFO - Received BotStarted
+2026-05-18 08:03:44,890 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:04:13,236 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x790c82becef0>, <maxapi.dispatcher.Router object at 0x790c833094f0>, <maxapi.dispatcher.Router object at 0x790c82bb3d10>, <maxapi.dispatcher.Router object at 0x790c82bec5c0>]
+2026-05-18 08:04:13,236 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x790c82e4a660>]
+2026-05-18 08:04:13,535 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:04:13,536 - dispatcher - INFO - Зарегистрировано 0 обработчиков событий
+2026-05-18 08:05:20,775 - root - INFO - Received DialogRemoved
+2026-05-18 08:05:20,776 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:05:21,320 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:05:26,164 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x7cbb9143bb30>, <maxapi.dispatcher.Router object at 0x7cbb91595b50>, <maxapi.dispatcher.Router object at 0x7cbb91427d70>, <maxapi.dispatcher.Router object at 0x7cbb916945f0>]
+2026-05-18 08:05:26,164 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x7cbb9143bb30>, <maxapi.dispatcher.Router object at 0x7cbb91595b50>, <maxapi.dispatcher.Router object at 0x7cbb91427d70>, <maxapi.dispatcher.Router object at 0x7cbb916945f0>]]
+2026-05-18 08:05:26,356 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:26,435 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:26,435 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:26,473 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7cbb91596780>
+2026-05-18 08:05:26,473 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7cbb91348470>, 7231.509392948)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7cbb9217efc0>
+2026-05-18 08:05:27,420 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x7c32ffe3cda0>, <maxapi.dispatcher.Router object at 0x7c33001999d0>, <maxapi.dispatcher.Router object at 0x7c32ffe17800>, <maxapi.dispatcher.Router object at 0x7c32ffe3c350>]
+2026-05-18 08:05:27,420 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x7c32ffe3cda0>, <maxapi.dispatcher.Router object at 0x7c33001999d0>, <maxapi.dispatcher.Router object at 0x7c32ffe17800>, <maxapi.dispatcher.Router object at 0x7c32ffe3c350>]]
+2026-05-18 08:05:27,620 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:27,705 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:27,706 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:27,771 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7c3301a33260>
+2026-05-18 08:05:27,771 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7c32ffe03d10>, 7232.779523367)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7c32fffd17c0>
+2026-05-18 08:05:28,839 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x7ed1841bf650>, <maxapi.dispatcher.Router object at 0x7ed18432f3e0>, <maxapi.dispatcher.Router object at 0x7ed183fdbaa0>, <maxapi.dispatcher.Router object at 0x7ed1840045c0>]
+2026-05-18 08:05:28,839 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x7ed1841bf650>, <maxapi.dispatcher.Router object at 0x7ed18432f3e0>, <maxapi.dispatcher.Router object at 0x7ed183fdbaa0>, <maxapi.dispatcher.Router object at 0x7ed1840045c0>]]
+2026-05-18 08:05:29,084 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:29,163 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:29,164 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:29,228 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ed1842c9220>
+2026-05-18 08:05:29,228 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7ed184203d10>, 7234.237709561)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7ed1842ca930>
+2026-05-18 08:05:30,462 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x7d14500be870>, <maxapi.dispatcher.Router object at 0x7d145014b2f0>, <maxapi.dispatcher.Router object at 0x7d144fdfbc80>, <maxapi.dispatcher.Router object at 0x7d144ffbb980>]
+2026-05-18 08:05:30,462 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x7d14500be870>, <maxapi.dispatcher.Router object at 0x7d145014b2f0>, <maxapi.dispatcher.Router object at 0x7d144fdfbc80>, <maxapi.dispatcher.Router object at 0x7d144ffbb980>]]
+2026-05-18 08:05:30,652 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:30,730 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:30,731 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:30,797 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7d144ffdf740>
+2026-05-18 08:05:30,798 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7d145001fcb0>, 7235.80481107)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7d144fe22270>
+2026-05-18 08:05:32,422 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x76c92a278ef0>, <maxapi.dispatcher.Router object at 0x76c92a49f7a0>, <maxapi.dispatcher.Router object at 0x76c92a487920>, <maxapi.dispatcher.Router object at 0x76c92a2784d0>]
+2026-05-18 08:05:32,422 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x76c92a278ef0>, <maxapi.dispatcher.Router object at 0x76c92a49f7a0>, <maxapi.dispatcher.Router object at 0x76c92a487920>, <maxapi.dispatcher.Router object at 0x76c92a2784d0>]]
+2026-05-18 08:05:32,609 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:32,684 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:32,684 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:32,723 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x76c92a5119a0>
+2026-05-18 08:05:32,723 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x76c92a477cb0>, 7237.758400741)])']
+connector: <aiohttp.connector.TCPConnector object at 0x76c92a27a030>
+2026-05-18 08:05:35,157 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x74f6460477d0>, <maxapi.dispatcher.Router object at 0x74f6460af830>, <maxapi.dispatcher.Router object at 0x74f646097bc0>, <maxapi.dispatcher.Router object at 0x74f645e885c0>]
+2026-05-18 08:05:35,157 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x74f6460477d0>, <maxapi.dispatcher.Router object at 0x74f6460af830>, <maxapi.dispatcher.Router object at 0x74f646097bc0>, <maxapi.dispatcher.Router object at 0x74f645e885c0>]]
+2026-05-18 08:05:35,359 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:35,443 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:35,444 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:35,512 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x74f64601db50>
+2026-05-18 08:05:35,512 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x74f646087cb0>, 7240.517442581)])']
+connector: <aiohttp.connector.TCPConnector object at 0x74f6461eec60>
+2026-05-18 08:05:39,623 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x7ab1508f0f80>, <maxapi.dispatcher.Router object at 0x7ab15114e720>, <maxapi.dispatcher.Router object at 0x7ab1508cb9b0>, <maxapi.dispatcher.Router object at 0x7ab1508f0530>]
+2026-05-18 08:05:39,624 - root - INFO - dp: [[<maxapi.dispatcher.Router object at 0x7ab1508f0f80>, <maxapi.dispatcher.Router object at 0x7ab15114e720>, <maxapi.dispatcher.Router object at 0x7ab1508cb9b0>, <maxapi.dispatcher.Router object at 0x7ab1508f0530>]]
+2026-05-18 08:05:39,831 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:39,910 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:39,911 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Dispatcher.handle_raw_response() done, defined at /usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py:479> exception=AttributeError("'list' object has no attribute 'event_handlers'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 486, in handle_raw_response
+    matching_handlers = self._find_matching_handlers(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 385, in _find_matching_handlers
+    for handler in router.event_handlers
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'event_handlers'
+2026-05-18 08:05:39,973 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ab150cb2db0>
+2026-05-18 08:05:39,973 - asyncio - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7ab150aefcb0>, 7244.984395559)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7ab1508f20f0>
+2026-05-18 08:05:44,341 - root - INFO - router: [<maxapi.dispatcher.Router object at 0x71ef40979070>, <maxapi.dispatcher.Router object at 0x71ef41c8afc0>, <maxapi.dispatcher.Router object at 0x71ef40512ae0>, <maxapi.dispatcher.Router object at 0x71ef401b0980>]
+2026-05-18 08:05:44,341 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x71ef40979070>, <maxapi.dispatcher.Router object at 0x71ef41c8afc0>, <maxapi.dispatcher.Router object at 0x71ef40512ae0>, <maxapi.dispatcher.Router object at 0x71ef401b0980>]
+2026-05-18 08:05:44,629 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:05:44,629 - dispatcher - INFO - Зарегистрировано 26 обработчиков событий
+2026-05-18 08:05:52,364 - root - INFO - Received BotStarted
+2026-05-18 08:05:52,365 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:06:38,598 - root - INFO - Received MESSAGE from [106984263]: [Моя заявка]
+2026-05-18 08:06:38,599 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:07:21,039 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x771492dc1130>]
+2026-05-18 08:07:21,347 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:07:21,347 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:07:30,867 - root - INFO - Received DialogRemoved
+2026-05-18 08:07:30,868 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:07:32,206 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:07:36,142 - root - INFO - Received BotStarted
+2026-05-18 08:07:36,143 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:07:41,164 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:07:41,165 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: start_command() missing 1 required positional argument: 'state')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 312, in call_handler
+    await handler.func_event(event_object)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: start_command() missing 1 required positional argument: 'state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: start_command() missing 1 required positional argument: 'state')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: start_command() missing 1 required positional argument: 'state'))
+2026-05-18 08:07:55,441 - root - INFO - Received MESSAGE from [106984263]: [Моя заявка]
+2026-05-18 08:07:55,442 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:14:59,596 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x7f51e6098e30>]
+2026-05-18 08:14:59,919 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:14:59,920 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:15:07,817 - root - INFO - Received DialogRemoved
+2026-05-18 08:15:07,817 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:15:08,315 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:15:15,049 - root - INFO - Received BotStarted
+2026-05-18 08:15:15,049 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:15:21,092 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:15:21,093 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCreated' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 24, in start_command
+    await message.answer(
+          ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'MessageCreated' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCreated' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCreated' object has no attribute 'answer'))
+2026-05-18 08:16:38,770 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x7e524994d130>]
+2026-05-18 08:16:39,052 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:16:39,052 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:16:53,644 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:16:54,064 - root - INFO - Received DialogRemoved
+2026-05-18 08:16:54,065 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:16:57,172 - root - INFO - Received BotStarted
+2026-05-18 08:16:57,172 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:03,432 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:17:03,685 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:06,050 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 08:17:06,051 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:07,421 - root - INFO - Received MESSAGE from [106984263]: [📝 Моя заявка]
+2026-05-18 08:17:07,422 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:18,636 - root - INFO - Received MESSAGE from [106984263]: [📖 Предоставление декларации о расходах и доходов]
+2026-05-18 08:17:18,637 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:20,140 - root - INFO - Received MESSAGE from [106984263]: [💡 Ответы на самые частые вопросы по трудоустройству]
+2026-05-18 08:17:20,141 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:17:21,076 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 08:17:21,077 - dispatcher - INFO - Проигнорировано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:26:30,120 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x78ce05421160>]
+2026-05-18 08:26:33,815 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:26:33,816 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:27:22,787 - root - INFO - []
+2026-05-18 08:27:22,788 - root - INFO - [<magic_filter.magic.MagicFilter object at 0x729927181780>]
+2026-05-18 08:27:22,788 - root - INFO - [<magic_filter.magic.MagicFilter object at 0x7299271817e0>]
+2026-05-18 08:27:22,788 - root - INFO - [<magic_filter.magic.MagicFilter object at 0x729927181750>]
+2026-05-18 08:27:22,788 - root - INFO - [<magic_filter.magic.MagicFilter object at 0x729927181a50>]
+2026-05-18 08:27:22,788 - root - INFO - []
+2026-05-18 08:27:22,788 - root - INFO - [<magic_filter.magic.MagicFilter object at 0x7299271819f0>]
+2026-05-18 08:27:22,788 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x7299272ea300>]
+2026-05-18 08:27:23,715 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:27:23,716 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:31:43,186 - root - INFO - <function start_command at 0x7f1b669ca700>
+2026-05-18 08:31:44,124 - root - INFO - <function start_command at 0x747d40b39e40>
+2026-05-18 08:31:45,215 - root - INFO - <function start_command at 0x7dba3518de40>
+2026-05-18 08:31:46,509 - root - INFO - <function start_command at 0x7012e2bade40>
+2026-05-18 08:31:48,206 - root - INFO - <function start_command at 0x78dfe7c29e40>
+2026-05-18 08:31:50,736 - root - INFO - <function start_command at 0x73f9cb081e40>
+2026-05-18 08:31:54,826 - root - INFO - <function start_command at 0x7dc00e4f9e40>
+2026-05-18 08:35:09,983 - root - INFO - <function start_command at 0x7c0d1f48e7a0>
+2026-05-18 08:35:09,983 - root - INFO - <function vacancies_command at 0x7c0d1f48e840>
+2026-05-18 08:35:09,983 - root - INFO - _new: <bound method MagicFilter._new of <class 'magic_filter.magic.MagicFilter'>>
+2026-05-18 08:35:09,983 - root - INFO - <function faq_command at 0x7c0d1f48e8e0>
+2026-05-18 08:35:09,983 - root - INFO - _new: <bound method MagicFilter._new of <class 'magic_filter.magic.MagicFilter'>>
+2026-05-18 08:35:09,983 - root - INFO - <function answer_for_faq_callback_run at 0x7c0d1f48e980>
+2026-05-18 08:35:09,983 - root - INFO - _new: <bound method MagicFilter._new of <class 'magic_filter.magic.MagicFilter'>>
+2026-05-18 08:35:09,984 - root - INFO - <function request_command at 0x7c0d1f48eac0>
+2026-05-18 08:35:09,984 - root - INFO - _new: <bound method MagicFilter._new of <class 'magic_filter.magic.MagicFilter'>>
+2026-05-18 08:35:09,984 - root - INFO - <function request_command at 0x7c0d1f48eac0>
+2026-05-18 08:35:09,984 - root - INFO - <function back_callback_run at 0x7c0d1f48ea20>
+2026-05-18 08:35:09,984 - root - INFO - _new: <bound method MagicFilter._new of <class 'magic_filter.magic.MagicFilter'>>
+2026-05-18 08:35:09,984 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x7c0d1f4951c0>]
+2026-05-18 08:35:10,332 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:35:10,332 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:39:35,318 - root - INFO - <function start_command at 0x77fddfe3a700>
+2026-05-18 08:39:35,318 - root - INFO - <function vacancies_command at 0x77fddfe3a7a0>
+2026-05-18 08:39:35,318 - root - INFO - _new: ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__func__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+2026-05-18 08:39:35,318 - root - INFO - <function faq_command at 0x77fddfe3a840>
+2026-05-18 08:39:35,318 - root - INFO - _new: ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__func__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+2026-05-18 08:39:35,318 - root - INFO - <function answer_for_faq_callback_run at 0x77fddfe3a8e0>
+2026-05-18 08:39:35,318 - root - INFO - _new: ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__func__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+2026-05-18 08:39:35,319 - root - INFO - <function request_command at 0x77fddfe3aa20>
+2026-05-18 08:39:35,319 - root - INFO - _new: ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__func__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+2026-05-18 08:39:35,319 - root - INFO - <function request_command at 0x77fddfe3aa20>
+2026-05-18 08:39:35,319 - root - INFO - <function back_callback_run at 0x77fddfe3a980>
+2026-05-18 08:39:35,319 - root - INFO - _new: ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__func__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+2026-05-18 08:39:35,319 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x77fddfe41070>]
+2026-05-18 08:39:35,760 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:39:35,760 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:40:37,571 - root - INFO - <function start_command at 0x71d83fb4e700>
+2026-05-18 08:40:37,571 - root - INFO - <function vacancies_command at 0x71d83fb4e7a0>
+2026-05-18 08:40:37,572 - root - INFO - _new: <method-wrapper '__init__' of method object at 0x71d8408cfe00>
+2026-05-18 08:40:37,572 - root - INFO - <function faq_command at 0x71d83fb4e840>
+2026-05-18 08:40:37,572 - root - INFO - _new: <method-wrapper '__init__' of method object at 0x71d8408cfe00>
+2026-05-18 08:40:37,572 - root - INFO - <function answer_for_faq_callback_run at 0x71d83fb4e8e0>
+2026-05-18 08:40:37,572 - root - INFO - _new: <method-wrapper '__init__' of method object at 0x71d8408cfe00>
+2026-05-18 08:40:37,572 - root - INFO - <function request_command at 0x71d83fb4ea20>
+2026-05-18 08:40:37,572 - root - INFO - _new: <method-wrapper '__init__' of method object at 0x71d8408cfe00>
+2026-05-18 08:40:37,572 - root - INFO - <function request_command at 0x71d83fb4ea20>
+2026-05-18 08:40:37,572 - root - INFO - <function back_callback_run at 0x71d83fb4e980>
+2026-05-18 08:40:37,572 - root - INFO - _new: <method-wrapper '__init__' of method object at 0x71d8408cfe00>
+2026-05-18 08:40:37,572 - root - INFO - dp: [<maxapi.dispatcher.Router object at 0x71d83fb1ba70>]
+2026-05-18 08:40:39,103 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:40:39,103 - dispatcher - INFO - Зарегистрировано 7 обработчиков событий
+2026-05-18 08:41:21,857 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:41:21,858 - dispatcher - INFO - Зарегистрировано 0 обработчиков событий
+2026-05-18 08:42:24,719 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:42:24,719 - dispatcher - INFO - Зарегистрировано 26 обработчиков событий
+2026-05-18 08:42:34,225 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:42:34,382 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:42:36,051 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 08:42:36,052 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:42:37,713 - root - INFO - Received MESSAGE from [106984263]: [💡 Ответы на самые частые вопросы по трудоустройству]
+2026-05-18 08:42:37,714 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:42:39,159 - root - INFO - Received MESSAGE from [106984263]: [📝 Моя заявка]
+2026-05-18 08:42:39,160 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:42:40,204 - root - INFO - Received MESSAGE from [106984263]: [📖 Предоставление декларации о расходах и доходов]
+2026-05-18 08:42:40,205 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:43:16,571 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 08:43:16,572 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=request_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'from_user')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 82, in request_command
+    user_id = event.message.from_user.id
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'from_user'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=request_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'from_user')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=request_command, router_id=0, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'from_user'))
+2026-05-18 08:45:12,232 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:45:12,232 - dispatcher - INFO - Зарегистрировано 26 обработчиков событий
+2026-05-18 08:49:08,592 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:49:08,593 - dispatcher - INFO - Зарегистрировано 26 обработчиков событий
+2026-05-18 08:49:14,169 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 08:49:14,170 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:49:16,420 - root - INFO - Received MESSAGE from [106984263]: [💡 Ответы на самые частые вопросы по трудоустройству]
+2026-05-18 08:49:16,421 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:49:17,664 - root - INFO - Received MESSAGE from [106984263]: [📖 Предоставление декларации о расходах и доходов]
+2026-05-18 08:49:17,665 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:49:18,605 - root - INFO - Received MESSAGE from [106984263]: [📝 Моя заявка]
+2026-05-18 08:49:18,606 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:49:25,890 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 08:49:26,033 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:56:44,179 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:56:44,179 - dispatcher - INFO - Зарегистрировано 26 обработчиков событий
+2026-05-18 08:56:47,620 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:56:47,621 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:56:54,170 - root - INFO - Received DialogRemoved
+2026-05-18 08:56:54,171 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:56:54,737 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:56:57,423 - root - INFO - Received BotStarted
+2026-05-18 08:56:57,424 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'BotStarted' object has no attribute 'message')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 24, in start_command
+    await event.message.answer(
+          ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'BotStarted' object has no attribute 'message'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'BotStarted' object has no attribute 'message')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=start_command, router_id=0, process=UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'BotStarted' object has no attribute 'message'))
+2026-05-18 08:58:53,473 - root - INFO - Received DialogRemoved
+2026-05-18 08:58:53,473 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:58:54,034 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 08:58:59,962 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 08:58:59,962 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 08:59:14,768 - root - INFO - Received BotStarted
+2026-05-18 08:59:15,053 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:59:18,919 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 08:59:19,068 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:59:20,731 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 08:59:21,026 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 08:59:29,751 - root - INFO - Received MESSAGE from [106984263]: [💡 Ответы на самые частые вопросы по трудоустройству]
+2026-05-18 08:59:30,114 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:05:19,570 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:05:19,570 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:05:25,440 - root - INFO - Received DialogRemoved
+2026-05-18 09:05:25,440 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:05:25,958 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 09:05:29,658 - root - INFO - Received BotStarted
+2026-05-18 09:05:29,824 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:05:31,723 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:05:32,005 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:05:33,852 - root - INFO - Received CALLBACK from [106984263]: [Комитет]
+2026-05-18 09:05:34,359 - dispatcher - INFO - Обработано: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:05:38,369 - root - INFO - Received CALLBACK from [106984263]: [auth]
+2026-05-18 09:05:38,540 - dispatcher - ERROR - Ошибка при обработке события: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=2, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=on_auth_message, router_id=2, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=FileNotFoundError: [Errno 2] No such file or directory: 'telegram_bot/docs/komitet_instruct/profile.png')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 312, in call_handler
+    await handler.func_event(event_object)
+  File "/app/max_bot/handlers/committee_handler.py", line 30, in on_auth_message
+    photo = InputMedia("telegram_bot/docs/komitet_instruct/profile.png")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/types/input_media.py", line 31, in __init__
+    self.type = type or self.__detect_file_type(path)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/types/input_media.py", line 44, in __detect_file_type
+    with Path(path).open("rb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'telegram_bot/docs/komitet_instruct/profile.png'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=on_auth_message, router_id=2, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=FileNotFoundError: [Errno 2] No such file or directory: 'telegram_bot/docs/komitet_instruct/profile.png')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=2, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=on_auth_message, router_id=2, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=FileNotFoundError: [Errno 2] No such file or directory: 'telegram_bot/docs/komitet_instruct/profile.png'))
+2026-05-18 09:07:52,162 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:07:52,163 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:07:57,541 - root - INFO - Received DialogRemoved
+2026-05-18 09:07:57,541 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.DIALOG_REMOVED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:07:58,091 - dispatcher - ERROR - Общая ошибка при обработке событий: <class 'maxapi.exceptions.max.MaxApiError'> - Ошибка от API: self.code=404 self.raw={'code': 'chat.not.found', 'message': 'Chat 142297013 not found'}
+2026-05-18 09:08:01,595 - root - INFO - Received BotStarted
+2026-05-18 09:08:01,810 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.BOT_STARTED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:04,123 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:08:04,445 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:11,163 - root - INFO - Received CALLBACK from [106984263]: [Комитет]
+2026-05-18 09:08:11,465 - dispatcher - INFO - Обработано: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:16,767 - root - INFO - Received CALLBACK from [106984263]: [auth]
+2026-05-18 09:08:20,015 - dispatcher - INFO - Обработано: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:32,289 - root - INFO - Received MESSAGE from [106984263]: [kl]
+2026-05-18 09:08:32,290 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:54,265 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:08:54,613 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:08:56,357 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:08:56,635 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:09:07,946 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:09:07,953 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'edit_text')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 27, in administration_callback_run
+    await edit_message(
+  File "/app/max_bot/utils/work_with_message.py", line 20, in edit_message
+    await message.edit_text(text=text, **add_kwargs)
+          ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'edit_text'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'edit_text')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'edit_text'))
+2026-05-18 09:14:00,382 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:14:00,383 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:14:10,967 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:14:11,105 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:14:13,008 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:14:13,165 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:14:14,131 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:14:14,264 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 34, in administration_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите интересующую вас должность")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:14:15,611 - root - INFO - Received CALLBACK from [106984263]: [1]
+2026-05-18 09:14:15,612 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCallback' object has no attribute 'data')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 167, in positions_callback_run
+    await context.update_data(post=event.data)
+                                   ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'MessageCallback' object has no attribute 'data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCallback' object has no attribute 'data')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'MessageCallback' object has no attribute 'data'))
+2026-05-18 09:17:02,858 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:17:02,859 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:17:12,046 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:17:12,392 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:17:14,235 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:17:14,376 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:17:15,255 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:17:15,401 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 34, in administration_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите интересующую вас должность")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:16,261 - root - INFO - Received CALLBACK from [106984263]: [1]
+2026-05-18 09:17:16,423 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 178, in positions_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите район")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:18,904 - root - INFO - Received CALLBACK from [106984263]: [back-position]
+2026-05-18 09:17:19,163 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 232, in back_callback_run
+    await event.callback.answer(notification="Назад")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:20,011 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:17:20,155 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 178, in positions_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите район")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:21,257 - root - INFO - Received CALLBACK from [106984263]: [ПУШКИНСКИЙ]
+2026-05-18 09:17:21,584 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=district_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 211, in district_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите участок")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=district_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=district_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:22,566 - root - INFO - Received CALLBACK from [106984263]: [178]
+2026-05-18 09:17:22,722 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=site_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 238, in site_callback_run
+    await event.callback.answer(notification="Информация по участку")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=site_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=site_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:23,661 - root - INFO - Received CALLBACK from [106984263]: [178]
+2026-05-18 09:17:23,804 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 260, in submit_documents_callback_run
+    await event.callback.answer(notification="Создание анкеты")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:24,672 - root - INFO - Received CALLBACK from [106984263]: [178]
+2026-05-18 09:17:24,949 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 284, in submit_documents_callback_run
+    await event.callback.answer(notification="Обработка персональных данных")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:25,720 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:17:25,850 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=fio_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 300, in fio_callback_run
+    await event.callback.answer(notification="Введите свое ФИО")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=fio_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=fio_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:26,732 - root - INFO - Received CALLBACK from [106984263]: [back-policy]
+2026-05-18 09:17:27,087 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 232, in back_callback_run
+    await event.callback.answer(notification="Назад")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:28,036 - root - INFO - Received CALLBACK from [106984263]: [178]
+2026-05-18 09:17:28,167 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 284, in submit_documents_callback_run
+    await event.callback.answer(notification="Обработка персональных данных")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=submit_documents_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:17:29,389 - root - INFO - Received MESSAGE from [106984263]: [dfghf]
+2026-05-18 09:17:29,390 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:18:54,901 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:18:55,063 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:18:56,738 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:18:56,889 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:18:59,033 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:18:59,179 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 34, in administration_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите интересующую вас должность")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=administration_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:19:01,413 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:19:01,564 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 178, in positions_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите район")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:19:02,927 - root - INFO - Received CALLBACK from [106984263]: [back-position]
+2026-05-18 09:19:03,067 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 232, in back_callback_run
+    await event.callback.answer(notification="Назад")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:19:05,221 - root - INFO - Received CALLBACK from [106984263]: [3]
+2026-05-18 09:19:05,576 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 178, in positions_callback_run
+    await event.callback.answer(notification="Пожалуйста, выберите район")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:19:07,314 - root - INFO - Received CALLBACK from [106984263]: [back-position]
+2026-05-18 09:19:07,471 - dispatcher - ERROR - Ошибка при обработке события: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/main_handler.py", line 232, in back_callback_run
+    await event.callback.answer(notification="Назад")
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'answer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=back_callback_run, router_id=0, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'answer'))
+2026-05-18 09:20:46,774 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:20:46,775 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:20:52,431 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:20:52,645 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:20:54,518 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:20:54,677 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:20:55,892 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:20:56,156 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:00,238 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:00,519 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:04,868 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:05,150 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:08,099 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:08,386 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:10,005 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:10,282 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:12,371 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:12,634 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:13,638 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:21:13,916 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:21:17,967 - root - INFO - Received CALLBACK from [106984263]: [Комитет]
+2026-05-18 09:21:17,973 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: string indices must be integers, not 'str')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 174, in positions_callback_run
+    attachments=[create_districts_inline(districts)]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/max_bot/keyboards/administration_inline.py", line 24, in create_districts_inline
+    text=district["name"],
+         ~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 61, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: string indices must be integers, not 'str')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=positions_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: string indices must be integers, not 'str'))
+2026-05-18 09:24:23,734 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:24:23,735 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:24:38,244 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:24:38,244 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:24:44,150 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:24:44,509 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:24:46,173 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:24:46,319 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:24:48,120 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:24:48,384 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:26:00,470 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:26:00,750 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:27:00,270 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:27:00,555 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:30:53,227 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:30:53,228 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:30:57,898 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:30:58,033 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:30:59,718 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:30:59,861 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:00,799 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:31:00,938 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:02,225 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:31:02,376 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:03,202 - root - INFO - Received CALLBACK from [106984263]: [ПЕТРОДВОРЦОВЫЙ]
+2026-05-18 09:31:03,481 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:04,312 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:31:04,457 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:05,120 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:31:05,280 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:06,018 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:31:06,164 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:07,487 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:31:07,620 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:31:09,222 - root - INFO - Received MESSAGE from [106984263]: [mnhm]
+2026-05-18 09:31:09,223 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=read_fio, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'text')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 286, in read_fio
+    fio_person = event.message.text.split(" ")
+                 ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'text'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=read_fio, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'text')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=read_fio, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Message' object has no attribute 'text'))
+2026-05-18 09:33:11,383 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:33:11,383 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:33:15,186 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:33:15,334 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:16,678 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:33:16,821 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:17,948 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:33:18,094 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:18,857 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:33:19,002 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:19,943 - root - INFO - Received CALLBACK from [106984263]: [ПЕТРОГРАДСКИЙ]
+2026-05-18 09:33:20,234 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:20,939 - root - INFO - Received CALLBACK from [106984263]: [146]
+2026-05-18 09:33:21,195 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:22,106 - root - INFO - Received CALLBACK from [106984263]: [146]
+2026-05-18 09:33:22,251 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:23,118 - root - INFO - Received CALLBACK from [106984263]: [146]
+2026-05-18 09:33:23,255 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:23,980 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:33:24,117 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:26,387 - root - INFO - Received MESSAGE from [106984263]: [gfjhg]
+2026-05-18 09:33:26,534 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:30,314 - root - INFO - Received MESSAGE from [106984263]: [gfd gtrfg gfg]
+2026-05-18 09:33:30,461 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:33:38,550 - root - INFO - Received MESSAGE from [106984263]: [hfg@mail.ru]
+2026-05-18 09:33:41,576 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=read_email, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=MaxApiError: Ошибка от API: self.code=400 self.raw={'code': 'proto.payload', 'message': 'Must be only one file attachment in message'})) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 323, in read_email
+    await event.message.answer(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/types/message.py", line 370, in answer
+    return await self._ensure_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/bot.py", line 330, in send_message
+    return await SendMessage(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/methods/send_message.py", line 171, in fetch
+    raise e
+  File "/usr/local/lib/python3.12/site-packages/maxapi/methods/send_message.py", line 152, in fetch
+    response = await super().request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/connection/base.py", line 124, in request
+    raise MaxApiError(code=r.status, raw=raw)
+maxapi.exceptions.max.MaxApiError: Ошибка от API: self.code=400 self.raw={'code': 'proto.payload', 'message': 'Must be only one file attachment in message'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=read_email, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=MaxApiError: Ошибка от API: self.code=400 self.raw={'code': 'proto.payload', 'message': 'Must be only one file attachment in message'})
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=read_email, router_id=1, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=MaxApiError: Ошибка от API: self.code=400 self.raw={'code': 'proto.payload', 'message': 'Must be only one file attachment in message'}))
+2026-05-18 09:46:04,569 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:46:04,570 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:46:11,397 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:46:11,750 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:12,981 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:46:13,127 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:14,400 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:46:14,542 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:15,269 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:46:15,419 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:16,339 - root - INFO - Received CALLBACK from [106984263]: [ПЕТРОДВОРЦОВЫЙ]
+2026-05-18 09:46:16,670 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:17,686 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:46:18,049 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:19,087 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:46:19,251 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:20,050 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:46:20,218 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:20,932 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:46:21,087 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:24,406 - root - INFO - Received MESSAGE from [106984263]: [ghf cghf fdgf]
+2026-05-18 09:46:24,540 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:38,105 - root - INFO - Received MESSAGE from [106984263]: [grfg@mail.ru]
+2026-05-18 09:46:48,339 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:46:50,952 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:46:50,953 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'User' object has no attribute 'id')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 351, in accept_request_callback_run
+    user_id = str(event.from_user.id)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'User' object has no attribute 'id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'User' object has no attribute 'id')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'User' object has no attribute 'id'))
+2026-05-18 09:48:58,578 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:48:58,578 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:49:03,433 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:49:03,612 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:05,020 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:49:05,158 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:06,612 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:49:06,758 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:07,988 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 09:49:08,136 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:09,012 - root - INFO - Received CALLBACK from [106984263]: [ПЕТРОДВОРЦОВЫЙ]
+2026-05-18 09:49:09,308 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:10,047 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:49:10,393 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:11,300 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:49:11,445 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:12,193 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:49:12,319 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:13,147 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:49:13,291 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:16,717 - root - INFO - Received MESSAGE from [106984263]: [bcvbv ghfh fghfh]
+2026-05-18 09:49:16,854 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:26,103 - root - INFO - Received MESSAGE from [106984263]: [emai@mail.ru]
+2026-05-18 09:49:36,086 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:37,374 - root - INFO - Received CALLBACK from [106984263]: [114]
+2026-05-18 09:49:37,541 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:42,055 - root - INFO - Received CALLBACK from [106984263]: [request]
+2026-05-18 09:49:42,207 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:45,000 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 09:49:45,190 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:46,449 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 09:49:46,596 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:50,303 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:49:50,656 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:49:56,974 - root - INFO - Received MESSAGE from [106984263]: [📖 Предоставление декларации о расходах и доходов]
+2026-05-18 09:49:56,975 - dispatcher - ERROR - Ошибка при обработке события: router_id: 3 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=3, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=declaration_command, router_id=3, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: declaration_command() missing 1 required positional argument: 'state')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 312, in call_handler
+    await handler.func_event(event_object)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: declaration_command() missing 1 required positional argument: 'state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=declaration_command, router_id=3, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: declaration_command() missing 1 required positional argument: 'state')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=3, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=declaration_command, router_id=3, process=UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=TypeError: declaration_command() missing 1 required positional argument: 'state'))
+2026-05-18 09:51:28,897 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:51:28,898 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:51:32,293 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:51:32,486 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:34,760 - root - INFO - Received MESSAGE from [106984263]: [📖 Предоставление декларации о расходах и доходов]
+2026-05-18 09:51:35,263 - dispatcher - INFO - Обработано: router_id: 3 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:37,725 - root - INFO - Received CALLBACK from [106984263]: [company]
+2026-05-18 09:51:37,877 - dispatcher - INFO - Обработано: router_id: 3 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:39,591 - root - INFO - Received CALLBACK from [106984263]: [gos_work]
+2026-05-18 09:51:40,267 - dispatcher - INFO - Обработано: router_id: 3 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:50,962 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:51:51,322 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:52,510 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:51:52,649 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:55,387 - root - INFO - Received MESSAGE from [106984263]: [💡 Ответы на самые частые вопросы по трудоустройству]
+2026-05-18 09:51:55,724 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:57,578 - root - INFO - Received CALLBACK from [106984263]: [answer-4]
+2026-05-18 09:51:57,712 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:51:59,099 - root - INFO - Received CALLBACK from [106984263]: [back-faq]
+2026-05-18 09:51:59,231 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:00,128 - root - INFO - Received CALLBACK from [106984263]: [answer-9]
+2026-05-18 09:52:00,265 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:01,264 - root - INFO - Received CALLBACK from [106984263]: [back-faq]
+2026-05-18 09:52:01,412 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:03,737 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:52:03,898 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:05,678 - root - INFO - Received CALLBACK from [106984263]: [Комитет]
+2026-05-18 09:52:05,849 - dispatcher - INFO - Обработано: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:07,564 - root - INFO - Received CALLBACK from [106984263]: [auth]
+2026-05-18 09:52:10,511 - dispatcher - INFO - Обработано: router_id: 2 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:19,112 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:52:19,277 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:21,567 - root - INFO - Received MESSAGE from [106984263]: [📝 Моя заявка]
+2026-05-18 09:52:21,707 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:23,468 - root - INFO - Received MESSAGE from [106984263]: [📝 Моя заявка]
+2026-05-18 09:52:23,608 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:52:26,198 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 09:52:26,559 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:43,686 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 09:53:43,844 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:44,867 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 09:53:45,018 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:45,879 - root - INFO - Received CALLBACK from [106984263]: [1]
+2026-05-18 09:53:46,041 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:47,051 - root - INFO - Received CALLBACK from [106984263]: [back-position]
+2026-05-18 09:53:47,193 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:47,839 - root - INFO - Received CALLBACK from [106984263]: [3]
+2026-05-18 09:53:48,099 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:48,880 - root - INFO - Received CALLBACK from [106984263]: [ФРУНЗЕНСКИЙ]
+2026-05-18 09:53:49,170 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:49,804 - root - INFO - Received CALLBACK from [106984263]: [198]
+2026-05-18 09:53:49,961 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:50,922 - root - INFO - Received CALLBACK from [106984263]: [198]
+2026-05-18 09:53:51,063 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:51,794 - root - INFO - Received CALLBACK from [106984263]: [198]
+2026-05-18 09:53:51,940 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:52,609 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 09:53:52,758 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:53:56,616 - root - INFO - Received MESSAGE from [106984263]: [vbn bgfh gfhfg]
+2026-05-18 09:53:56,759 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:02,768 - root - INFO - Received MESSAGE from [106984263]: [efgdf@mail.ru]
+2026-05-18 09:54:13,126 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:14,871 - root - INFO - Received CALLBACK from [106984263]: [198]
+2026-05-18 09:54:15,009 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:16,997 - root - INFO - Received CALLBACK from [106984263]: [request]
+2026-05-18 09:54:17,150 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:18,095 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 09:54:18,255 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:19,346 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 09:54:19,500 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:54:22,881 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 09:54:23,030 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:57:56,331 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:57:56,332 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:58:02,704 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 09:58:02,867 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:58:38,807 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 09:58:38,808 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 09:58:47,058 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 09:58:47,063 - root - INFO - status: None
+2026-05-18 09:58:47,200 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 09:58:50,637 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 09:58:50,645 - root - INFO - status: not_read
+2026-05-18 09:58:50,786 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:00:45,262 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:00:45,262 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:01:26,817 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 10:01:26,817 - root - INFO - tgid: 106984263
+2026-05-18 10:01:26,822 - root - INFO - {'status': None}
+2026-05-18 10:01:26,977 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:01:37,056 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 10:01:37,057 - root - INFO - tgid: 236664050
+2026-05-18 10:01:37,063 - root - INFO - {'candidate': {'name': 'ghfh', 'surname': 'bcvbv', 'last_name': 'fghfh', 'email': 'emai@mail.ru', 'telegram_id': '236664050'}, 'status': 'not_read', 'message_to_candidate': None}
+2026-05-18 10:01:37,398 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:39,684 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:03:39,685 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:03:49,865 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 10:03:50,011 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:52,676 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 10:03:52,877 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:55,546 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 10:03:55,689 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:56,604 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 10:03:56,754 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:57,447 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 10:03:57,592 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:58,261 - root - INFO - Received CALLBACK from [106984263]: [ВЫБОРГСКИЙ]
+2026-05-18 10:03:58,595 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:03:59,256 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:03:59,413 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:00,206 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:04:00,549 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:01,180 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:04:01,319 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:02,027 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 10:04:02,151 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:05,673 - root - INFO - Received MESSAGE from [106984263]: [ghfg dgfdg dgfg]
+2026-05-18 10:04:05,808 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:12,219 - root - INFO - Received MESSAGE from [106984263]: [tr@email.ru]
+2026-05-18 10:04:22,560 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:04:24,109 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:04:24,110 - dispatcher - ERROR - Ошибка при обработке события: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263 | MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'sender')) 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 465, in _execute_handler
+    await handler_chain(event, kwargs_filtered)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 310, in call_handler
+    await handler.func_event(event_object, **kwargs_filtered)
+  File "/app/max_bot/handlers/administration_handler.py", line 352, in accept_request_callback_run
+    user_id = str(event.callback.sender.user_id)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pydantic/main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Callback' object has no attribute 'sender'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 598, in handle
+    await global_chain(event_object, kwargs)
+  File "/app/max_bot/middlewares/logging_middleware.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 591, in _process_event
+    await _process_handlers(event_object, data)
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 566, in _process_handlers
+    await self._execute_handler(
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 468, in _execute_handler
+    raise HandlerException(
+maxapi.exceptions.dispatcher.HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'sender')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/maxapi/dispatcher.py", line 611, in handle
+    raise MiddlewareException(
+maxapi.exceptions.dispatcher.MiddlewareException: MiddlewareException(middleware=LoggingMiddleware, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=HandlerException: HandlerException(handler=accept_request_callback_run, router_id=1, process=UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263, context_keys=['data', 'state'], cause=AttributeError: 'Callback' object has no attribute 'sender'))
+2026-05-18 10:07:14,805 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:07:14,806 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:07:24,099 - root - INFO - Received MESSAGE from [106984263]: [/start]
+2026-05-18 10:07:24,448 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:27,995 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 10:07:28,217 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:29,682 - root - INFO - Received MESSAGE from [106984263]: [🔍 Узнать о вакансиях организации]
+2026-05-18 10:07:29,828 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:30,958 - root - INFO - Received CALLBACK from [106984263]: [Аппарат мировых судей]
+2026-05-18 10:07:31,112 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:33,119 - root - INFO - Received CALLBACK from [106984263]: [2]
+2026-05-18 10:07:33,267 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:33,905 - root - INFO - Received CALLBACK from [106984263]: [ВЫБОРГСКИЙ]
+2026-05-18 10:07:34,203 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:34,924 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:07:35,069 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:35,663 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:07:35,811 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:36,442 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:07:36,782 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:37,684 - root - INFO - Received CALLBACK from [106984263]: [accept-policy]
+2026-05-18 10:07:37,818 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:40,178 - root - INFO - Received MESSAGE from [106984263]: [gfdg ghfgh fghfgh]
+2026-05-18 10:07:40,322 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:07:46,945 - root - INFO - Received MESSAGE from [106984263]: [reta@gmail.com]
+2026-05-18 10:08:13,558 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:08:17,641 - root - INFO - Received CALLBACK from [106984263]: [36]
+2026-05-18 10:08:17,817 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:08:20,244 - root - INFO - Received CALLBACK from [106984263]: [request]
+2026-05-18 10:08:20,393 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:08:21,316 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 10:08:21,480 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:08:25,017 - root - INFO - Received MESSAGE from [106984263]: [/statis]
+2026-05-18 10:08:25,018 - dispatcher - INFO - Проигнорировано: router_id: 4 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:08:27,382 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 10:08:27,532 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:09:08,320 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:09:08,320 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:09:13,023 - root - INFO - Received MESSAGE from [106984263]: [/status]
+2026-05-18 10:09:13,180 - dispatcher - INFO - Обработано: router_id: 0 | UpdateType.MESSAGE_CREATED | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:09:14,314 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 10:09:14,460 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263
+2026-05-18 10:25:11,323 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:25:11,323 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:28:47,484 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:28:47,485 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:32:44,199 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:32:44,200 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:34:38,530 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:34:38,530 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:36:19,844 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:36:19,844 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:38:23,943 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:38:23,944 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:38:42,700 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:38:42,701 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:40:27,754 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:40:27,754 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:47:09,298 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:47:09,299 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:55:07,461 - dispatcher - INFO - Бот: @info_mir_spb_bot first_name=Справочная информация о мировых судьях Санкт-Петербурга id=236664050
+2026-05-18 10:55:07,461 - dispatcher - INFO - Зарегистрировано 27 обработчиков событий
+2026-05-18 10:59:09,147 - root - INFO - Received CALLBACK from [106984263]: [request-status]
+2026-05-18 10:59:09,341 - dispatcher - INFO - Обработано: router_id: 1 | UpdateType.MESSAGE_CALLBACK | chat_id: 142297013, user_id: 106984263

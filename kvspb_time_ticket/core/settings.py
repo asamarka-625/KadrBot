@@ -30,6 +30,11 @@ CSRF_TRUSTED_ORIGINS = ['https://hr.kvzpb-work.ru']
 
 # Application definition
 
+FORCE_SCRIPT_NAME = "/ur5iw7"
+
+STATIC_URL = "/ur5iw7/static/"
+MEDIA_URL = "/ur5iw7/media/"
+USE_X_FORWARDED_HOST = True
 
 INSTALLED_APPS = [
     'drf_yasg',
@@ -132,7 +137,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
 STATIC_ROOT  = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type

@@ -1,0 +1,33 @@
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Файлы venv
+.venv/
+
+# Файлы IDE
+.idea/
+.vs/
+
+# Docker
+Dockerfile.max_bot
+*.dockerignore
+docker-compose.yml
+
+# Git
+.git
+.gitignore
+
+# Other
+data/
+nginx/
+kvspb_time_ticket/
+telegram_bot/
+.env.telegram_bot
+db_dump.json
+README.md
+UPDATE.html
+UPDATE.md

@@ -27,7 +27,7 @@ async def on_auth_message(callback: CallbackQuery):
     await callback.message.answer("Спасибо что зарегистрировались на сайте. Для того, чтобы откликнуться вам необходимо заполнить анкету."
                                   "Следуйте инструкция по заполнению")
 
-    photo = FSInputFile("telegram_bot/docs/komitet_instruct/profile.png")
+    photo = FSInputFile("max_bot/docs/komitet_instruct/profile.png")
     await callback.message.answer_photo(
         caption="Перейдите в свой личный кабинет выберите пункт 'Профиль'. В данном пункте, откройте графу 'Общие данные'",
         photo=photo
