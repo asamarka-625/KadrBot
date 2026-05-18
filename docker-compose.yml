@@ -7,15 +7,15 @@ services:
     restart: unless-stopped
 
   max_bot:
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+    # extra_hosts:
+    #  - "host.docker.internal:host-gateway"
     build:
       context: .
       dockerfile: Dockerfile.max_bot
-      network: host
-      args:
-        - http_proxy=http://127.0.0.1:10808
-        - https_proxy=http://127.0.0.1:10808
+      # network: host
+      # args:
+      #  - http_proxy=http://127.0.0.1:10808
+      #  - https_proxy=http://127.0.0.1:10808
     depends_on:
       - backend
     volumes:

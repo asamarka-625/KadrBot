@@ -12,7 +12,7 @@ bot = Bot(
     token=config.MAX_BOT_TOKEN,
     parse_mode=ParseMode.HTML,
     default_connection=DefaultConnectionProperties(
-        proxy="http://host.docker.internal:15030"
+        # proxy="http://host.docker.internal:15030"
     )
 )
 
